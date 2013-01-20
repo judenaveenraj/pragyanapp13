@@ -11,6 +11,11 @@ public class PragyanEventData {
 	private String eventImage;
 	
 	
+	public PragyanEventData(String name, Date datetime, String imgurl) {
+		eventName = name;
+		eventDate = datetime;
+		eventImage = imgurl;
+	}
 	
 	public String getEventName() {
 		return eventName;
