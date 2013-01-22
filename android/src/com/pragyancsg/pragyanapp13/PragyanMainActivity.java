@@ -16,12 +16,12 @@ import android.widget.TextView;
 
 public class PragyanMainActivity extends FragmentActivity{
 
-	SectionsPagerAdapter mSectionsPagerAdapter;
-
+	CustomPagerAdapter myPagerAdapter;
+	
 	/**
 	 * The {@link ViewPager} that will host the section contents.
 	 */
-	ViewPager mViewPager;
+	ViewPager myViewPager;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,12 +30,12 @@ public class PragyanMainActivity extends FragmentActivity{
 
 		// Create the adapter that will return a fragment for each of the three
 		// primary sections of the app.
-		mSectionsPagerAdapter = new SectionsPagerAdapter(
+		myPagerAdapter = new CustomPagerAdapter(
 				getSupportFragmentManager());
 
 		// Set up the ViewPager with the sections adapter.
-		mViewPager = (ViewPager) findViewById(R.id.pager);
-		mViewPager.setAdapter(mSectionsPagerAdapter);
+		myViewPager = (ViewPager) findViewById(R.id.pager);
+		myViewPager.setAdapter(myPagerAdapter);
 
 	}
 
@@ -43,9 +43,9 @@ public class PragyanMainActivity extends FragmentActivity{
 	 * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
 	 * one of the sections/tabs/pages.
 	 */
-	public class SectionsPagerAdapter extends FragmentPagerAdapter {
+	public class CustomPagerAdapter extends FragmentPagerAdapter {
 
-		public SectionsPagerAdapter(FragmentManager fm) {
+		public CustomPagerAdapter(FragmentManager fm) {
 			super(fm);
 		}
 
@@ -62,21 +62,10 @@ public class PragyanMainActivity extends FragmentActivity{
 		@Override
 		public int getCount() {
 			// Show 3 total pages.
+			//METHOD THAT WILL GET FRAGMENT COUNT
 			return 3;
 		}
 
-		@Override
-		public CharSequence getPageTitle(int position) {
-			switch (position) {
-			case 0:
-				return "Events";
-			case 1:
-				return "Pragyan";
-			case 2:
-				return "Highlights";
-			}
-			return null;
-		}
 	}
 
 	//FRAGMENTS to be used.

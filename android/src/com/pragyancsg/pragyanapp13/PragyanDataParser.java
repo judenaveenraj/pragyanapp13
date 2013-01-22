@@ -16,7 +16,6 @@ public class PragyanDataParser {
 		addEvents();
 		addHighlights();
 		
-		
 	}
 
 	private void addHighlights() {
