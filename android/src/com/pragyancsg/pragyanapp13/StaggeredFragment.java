@@ -1,5 +1,7 @@
 package com.pragyancsg.pragyanapp13;
 
+import com.origamilabs.library.views.StaggeredGridView;
+
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.origamilabs.library.views.StaggeredGridView;
 
 
 public class StaggeredFragment extends Fragment {
@@ -32,8 +33,7 @@ public class StaggeredFragment extends Fragment {
 			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/pengufest.jpg"
 };
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 		
 		StaggeredGridView gridView = new StaggeredGridView(getActivity());
 		
