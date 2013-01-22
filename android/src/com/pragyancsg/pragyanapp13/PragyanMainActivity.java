@@ -52,10 +52,10 @@ public class PragyanMainActivity extends FragmentActivity{
 		@Override
 		public Fragment getItem(int position) {
 			//Get the FRAGMENT.
-			Fragment fragment = new DummySectionFragment();
-			Bundle args = new Bundle();
-			args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position + 1);
-			fragment.setArguments(args);
+			Fragment fragment = new StaggeredFragment();
+			//Bundle args = new Bundle();
+			//args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position + 1);
+			//fragment.setArguments(args);
 			return fragment;
 		}
 
@@ -66,30 +66,6 @@ public class PragyanMainActivity extends FragmentActivity{
 			return 3;
 		}
 
-	}
-
-	//FRAGMENTS to be used.
-	
-	public static class DummySectionFragment extends Fragment {
-
-		//A dummy fragment is used to display fragment number.
-		
-		public static final String ARG_SECTION_NUMBER = "section_number";
-
-		public DummySectionFragment() {
-		}
-
-		@Override
-		public View onCreateView(LayoutInflater inflater, ViewGroup container,
-				Bundle savedInstanceState) {
-			// Create a new TextView and set its text to the fragment's section
-			// number argument value.
-			TextView textView = new TextView(getActivity());
-			textView.setGravity(Gravity.CENTER);
-			textView.setText(Integer.toString(getArguments().getInt(
-					ARG_SECTION_NUMBER)));
-			return textView;
-		}
 	}
 
 }
