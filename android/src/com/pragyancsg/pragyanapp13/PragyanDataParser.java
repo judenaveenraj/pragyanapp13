@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
 
+import android.view.LayoutInflater;
+
 
 public class PragyanDataParser {
 
@@ -18,6 +20,17 @@ public class PragyanDataParser {
 		
 	}
 
+	
+	
+	
+	public ArrayList<String> getMainMenuTitles(){
+		ArrayList<String> titles = new ArrayList<String>();
+		for(PragyanEventData event: pragyanEvents){
+			titles.add(event.getEventName());
+		}
+		return titles;
+	}
+		
 	private void addHighlights() {
 		ArrayList<String> highlights = new ArrayList<String>();
 		highlights.add("Guest Lectures");
