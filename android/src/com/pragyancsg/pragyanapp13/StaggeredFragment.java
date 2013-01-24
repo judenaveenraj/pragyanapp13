@@ -1,5 +1,7 @@
 package com.pragyancsg.pragyanapp13;
 
+import xmlHandlers.PragyanEventData;
+
 import com.origamilabs.library.views.StaggeredGridView;
 
 import android.support.v4.app.Fragment;
@@ -14,24 +16,24 @@ import android.view.ViewGroup;
 public class StaggeredFragment extends Fragment {
 
 
+	private String names[];
+	private String urls[];
+	
+	
+	
+	public StaggeredFragment(String rootName,
+			PragyanDataParser dataProvider) {
+		int len = dataProvider.getNumberOfItemsUnder(rootName);
+		names = new String[len];
+		urls = new String[len];
+		for(int i=0; i<len; i++){
+			PragyanEventData item = dataProvider.getItemUnderWithIndex(rootName, i);
+			names[i] = item.getEventName();
+			urls[i] = item.getEventImage();
+		}
+	}
 
-	private String urls[]={
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/events.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/manigma.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/highlights.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/exhi.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/workshops.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/PGT.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/codeit.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/brainworks.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/chillpill.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/core.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/robovigyan.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/psr.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/crossfire.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/infotainment.jpg",
-			"http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/pengufest.jpg"
-};
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 		

@@ -1,6 +1,7 @@
 package com.pragyancsg.pragyanapp13;
 
 
+import Helpers.ImageLoader;
 import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -9,8 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
-import com.pragyancsg.pragyanapp13.ImageLoader;
-import com.pragyancsg.pragyanapp13.ScaleImageView;
 
 public class StaggeredAdapter extends ArrayAdapter<String> {
 

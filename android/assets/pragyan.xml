@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pragyan>
+  <item>
+    <name>Events</name>
+    <children>
+      <item>
+        <name>Core Engineering</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/core.jpg</imgurl>
+        <children>
+          <item>
+            <name>Junkyard Wars</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x210junkyard.jpg</imgurl>
+          </item>
+          <item>
+            <name>D-Chrome</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150dchrome.jpg</imgurl>
+          </item>
+          <item>
+            <name>Nittro</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x310nittro.jpg</imgurl>
+          </item>
+          <item>
+            <name>Hover One</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x140hoverone.jpg</imgurl>
+          </item>
+          <item>
+            <name>Delta T</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x160deltaT.jpg</imgurl>
+          </item>
+          <item>
+            <name>Hydro</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/410x150hydro.jpg</imgurl>
+          </item>
+          <item>
+            <name>Contraptions</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150contraptions.jpg</imgurl>
+          </item>
+          <item>
+            <name>Topographya</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x220topo.jpg</imgurl>
+          </item>
+          <item>
+            <name>Green Electricity</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x240greenelectricity.jpg</imgurl>
+          </item>
+          <item>
+            <name>NFS Aqua</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x250NFSAqua.jpg</imgurl>
+          </item>
+          <item>
+            <name>Allumette</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150allumete.jpg</imgurl>
+          </item>
+        </children>
+      </item>
+      <item>
+        <name>Innovation</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/innovation.jpg</imgurl>
+      </item>
+      <item>
+        <name>Robovigyan</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/robovigyan.jpg</imgurl>
+      </item>
+      <item>
+        <name>Brainworks</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/brainworks.jpg</imgurl>
+      </item>
+      <item>
+        <name>Codeit</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/codeit.jpg</imgurl>
+      </item>
+      <item>
+        <name>Pragyan's Got Talent</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/PGT.jpg</imgurl>
+      </item>
+      <item>
+        <name>Manigma</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/manigma.jpg</imgurl>
+      </item>
+      <item>
+        <name>Chill Pill</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/chillpill.jpg</imgurl>
+      </item>
+    </children>
+  </item>
+  <item>
+    <name>Highlights</name>
+    <children>
+      <item>
+        <name>Workshops</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/workshops.jpg</imgurl>
+        <children>
+          <item>
+            <name>Tall Structure Design</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/civil.jpg</imgurl>
+          </item>
+          <item>
+            <name>Automative Systems &amp; Advancements</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/auto.jpg</imgurl>
+          </item>
+          <item>
+            <name>Six Sigma</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sixsigma.jpg</imgurl>
+          </item>
+          <item>
+            <name>Underwater Robotics</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/underwater.jpg</imgurl>
+          </item>
+          <item>
+            <name>Sixth Sense Robotics</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sixsense.jpg</imgurl>
+          </item>
+        </children>
+      </item>
+      <item>
+        <name>Guest Lectures</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/gl.jpg</imgurl>
+      </item>
+      <item>
+        <name>Pengufest</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/pengufest.jpg</imgurl>
+      </item>
+      <item>
+        <name>Exhibitions And Sangam</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/exhi.jpg</imgurl>
+        <children>
+          <item>
+            <name>Exhibitions</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/exhibitions.jpg</imgurl>
+          </item>
+          <item>
+            <name>Sangam</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sangam.jpg</imgurl>
+          </item>
+        </children>
+      </item>
+      <item>
+        <name>Outreach</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/outreach.jpg</imgurl>
+        <children>
+          <item>
+            <name>Mobile Making Workshop</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/mm_workshop.jpg</imgurl>
+          </item>
+          <item>
+            <name>Pragyan Open Quiz</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/pragyanopenquiz.jpg</imgurl>
+          </item>
+        </children>
+      </item>
+      <item>
+        <name>PSR</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/psr.jpg</imgurl>
+        <children>
+          <item>
+            <name>Disha</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/disha.jpg</imgurl>
+          </item>
+          <item>
+            <name>Wishberry</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/wishberry.jpg</imgurl>
+          </item>
+        </children>
+      </item>
+      <item>
+        <name>Crossfire</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/crossfire.jpg</imgurl>
+      </item>
+      <item>
+        <name>Infotainment</name>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/infotainment.jpg</imgurl>
+      </item>
+    </children>
+  </item>
+</pragyan>
