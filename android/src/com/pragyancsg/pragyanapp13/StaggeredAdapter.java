@@ -1,6 +1,8 @@
 package com.pragyancsg.pragyanapp13;
 
 
+import java.util.ArrayList;
+
 import Helpers.ImageLoader;
 import android.content.Context;
 import android.util.Log;
@@ -14,11 +16,13 @@ import android.widget.ImageView;
 public class StaggeredAdapter extends ArrayAdapter<String> {
 
 	private ImageLoader mLoader;
-
+	private String[] tags;
+	
 	public StaggeredAdapter(Context context, int textViewResourceId,
-			String[] objects) {
+			String[] objects, String[] objectTags) {
 		super(context, textViewResourceId, objects);
 		mLoader = new ImageLoader(context);
+		tags = objectTags;
 	}
 
 	@Override
@@ -37,7 +41,7 @@ public class StaggeredAdapter extends ArrayAdapter<String> {
 
 		holder = (ViewHolder) convertView.getTag();
 
-		mLoader.DisplayImage(getItem(position), holder.imageView);
+		mLoader.DisplayImage(getItem(position), holder.imageView, tags[position]);
 
 		return convertView;
 	}
