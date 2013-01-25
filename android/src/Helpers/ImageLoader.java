@@ -45,7 +45,7 @@ public class ImageLoader {
     
 //    final int stub_id= android.R.drawable.alert_dark_frame;
     
-    public void DisplayImage(String url, ImageView imageView)
+    public void DisplayImage(String url, ImageView imageView, String referenceTag)
     {
         imageViews.put(imageView, url);
         Bitmap bitmap=memoryCache.get(url);
@@ -56,6 +56,9 @@ public class ImageLoader {
             queuePhoto(url, imageView);
             imageView.setImageDrawable(null);
         }
+        
+        /// JUDE NAVEEN RAJ: MOD: Customising imageview for easier name reference 
+        imageView.setTag(referenceTag);
     }
         
     private void queuePhoto(String url, ImageView imageView)

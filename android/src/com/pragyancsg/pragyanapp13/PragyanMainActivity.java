@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import xmlHandlers.PragyanEventData;
 import xmlHandlers.PragyanXmlParser;
+import android.R.menu;
 import android.app.Activity;
 import android.content.res.AssetManager;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -40,15 +42,43 @@ public class PragyanMainActivity extends FragmentActivity{
 		setContentView(R.layout.pragyan_main);
 
 		dataProvider = new PragyanDataParser(this);
-		
-		
-		
+		HelperUtils.setDataProvider(dataProvider);
+		setMenuTitle(dataProvider.getItemUnderWithIndex(rootName, 0).getEventName());
+
 		myPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager());
 		myViewPager = (ViewPager) findViewById(R.id.pager);
+		myViewPager.setOnPageChangeListener(new OnPageChangeListener() {
+			
+			@Override
+			public void onPageSelected(int arg0) {
+				Log.d("PAGER","select" + String.valueOf(arg0));
+				setMenuTitle(dataProvider.getItemUnderWithIndex(rootName, arg0).getEventName());
+				
+			}
+			
+			@Override
+			public void onPageScrolled(int arg0, float arg1, int arg2) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void onPageScrollStateChanged(int arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
 		myViewPager.setAdapter(myPagerAdapter);
-
+		
 	}
 
+	
+	
+	public void setMenuTitle(String title){
+		TextView menuTitle = (TextView) findViewById(R.id.menuTitle);
+		menuTitle.setText(title);
+	}
+	
 	/**
 	 * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
 	 * one of the sections/tabs/pages.
@@ -63,7 +93,7 @@ public class PragyanMainActivity extends FragmentActivity{
 		public Fragment getItem(int position) {
 			//Get the FRAGMENT.
 			Log.d("POSITION",String.valueOf(position));
-			Fragment fragment = new StaggeredFragment(dataProvider.getItemUnderWithIndex("root", position).getEventName(), dataProvider);
+			Fragment fragment = new StaggeredFragment(dataProvider.getItemUnderWithIndex(rootName, position).getEventName(), dataProvider);
 			//Bundle args = new Bundle();
 			//args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position + 1);
 			//fragment.setArguments(args);
@@ -76,6 +106,9 @@ public class PragyanMainActivity extends FragmentActivity{
 			//METHOD THAT WILL GET FRAGMENT COUNT
 			return dataProvider.getNumberOfItemsUnder(rootName);
 		}
+		
+		
+		
 
 	}
 

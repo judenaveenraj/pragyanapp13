@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <pragyan>
   <item>
     <name>Events</name>
@@ -94,22 +94,23 @@
             <name>Tall Structure Design</name>
             <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/civil.jpg</imgurl>
           </item>
+           <item>
+            <name>Six Sigma</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sixsigma.jpg</imgurl>
+          </item>
           <item>
             <name>Automative Systems &amp; Advancements</name>
             <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/auto.jpg</imgurl>
           </item>
-          <item>
-            <name>Six Sigma</name>
-            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sixsigma.jpg</imgurl>
+           <item>
+            <name>Sixth Sense Robotics</name>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sixsense.jpg</imgurl>
           </item>
           <item>
             <name>Underwater Robotics</name>
             <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/underwater.jpg</imgurl>
           </item>
-          <item>
-            <name>Sixth Sense Robotics</name>
-            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sixsense.jpg</imgurl>
-          </item>
+          
         </children>
       </item>
       <item>
