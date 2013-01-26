@@ -15,17 +15,23 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.AnimationUtils;
+import android.widget.TextSwitcher;
 import android.widget.TextView;
+import android.widget.ViewSwitcher.ViewFactory;
 
 
-public class PragyanSubActivity extends FragmentActivity {
+public class PragyanSubActivity extends FragmentActivity implements ViewFactory{
 
-	
+	private TextSwitcher menuSwitcher;
 	private PragyanDataParser dataProvider;
 	
 	CustomPagerAdapter myPagerAdapter;
@@ -36,6 +42,7 @@ public class PragyanSubActivity extends FragmentActivity {
 	 * The {@link ViewPager} that will host the section contents.
 	 */
 	private ViewPager myViewPager;
+
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +54,13 @@ public class PragyanSubActivity extends FragmentActivity {
 		
 		Bundle bundle = getIntent().getExtras();
 		rootName = bundle.getString("root");
+		
+		menuSwitcher = (TextSwitcher) findViewById(R.id.menuTitle);
+		menuSwitcher.setFactory(this);
+		Animation in =  AnimationUtils.loadAnimation(getApplicationContext(), android.R.anim.fade_in);
+		menuSwitcher.setInAnimation(in);
+		Animation out =  AnimationUtils.loadAnimation(getApplicationContext(), android.R.anim.fade_out);
+		menuSwitcher.setOutAnimation(out);
 		setMenuTitle(rootName);
 		
 		myPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager());
@@ -77,8 +91,7 @@ public class PragyanSubActivity extends FragmentActivity {
 	}
 
 	public void setMenuTitle(String title){
-		TextView menuTitle = (TextView) findViewById(R.id.menuTitle);
-		menuTitle.setText(title);
+		menuSwitcher.setText(title);
 	}
 	
 	/**
@@ -111,6 +124,17 @@ public class PragyanSubActivity extends FragmentActivity {
 		
 		
 
+	}
+
+	@Override
+	public View makeView() {
+		TextView tv = new TextView(this);
+		final float scale = getResources().getDisplayMetrics().density;
+		tv.setPadding((int)(15*scale+0.5f), (int)(10*scale+0.5f), 0, (int)(10*scale+0.5f));
+		//tv.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+		tv.setTextColor(getResources().getColor(R.color.Ivory));
+		tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 50);
+		return tv;
 	}
 
 }

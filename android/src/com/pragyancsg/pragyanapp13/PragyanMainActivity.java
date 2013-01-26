@@ -15,20 +15,29 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.AnimationUtils;
+import android.view.animation.Interpolator;
+import android.widget.TextSwitcher;
 import android.widget.TextView;
+import android.widget.ViewSwitcher;
+import android.widget.ViewSwitcher.ViewFactory;
 
-public class PragyanMainActivity extends FragmentActivity{
+public class PragyanMainActivity extends FragmentActivity implements ViewFactory{
 
-	
+	private TextSwitcher menuSwitcher;
 	private PragyanDataParser dataProvider;
-	
 	CustomPagerAdapter myPagerAdapter;
 	
+	private int currentPage = 0;
 	String rootName = "root"; 
 	
 	/**
@@ -43,8 +52,13 @@ public class PragyanMainActivity extends FragmentActivity{
 
 		dataProvider = new PragyanDataParser(this);
 		HelperUtils.setDataProvider(dataProvider);
-		setMenuTitle(dataProvider.getItemUnderWithIndex(rootName, 0).getEventName());
+		
+		menuSwitcher = (TextSwitcher) findViewById(R.id.menuTitle);
+		menuSwitcher.setFactory(this);
+		setMenuTitle(dataProvider.getItemUnderWithIndex(rootName, 0).getEventName(),"next");
 
+		
+		
 		myPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager());
 		myViewPager = (ViewPager) findViewById(R.id.pager);
 		myViewPager.setOnPageChangeListener(new OnPageChangeListener() {
@@ -52,7 +66,16 @@ public class PragyanMainActivity extends FragmentActivity{
 			@Override
 			public void onPageSelected(int arg0) {
 				Log.d("PAGER","select" + String.valueOf(arg0));
-				setMenuTitle(dataProvider.getItemUnderWithIndex(rootName, arg0).getEventName());
+				if(currentPage<arg0){
+					setMenuTitle(dataProvider.getItemUnderWithIndex(rootName, arg0).getEventName(),"next");
+					currentPage = arg0;
+					return;
+				}
+				if(currentPage>arg0){
+					setMenuTitle(dataProvider.getItemUnderWithIndex(rootName, arg0).getEventName(),"prev");
+					currentPage = arg0;
+					return;
+				}
 				
 			}
 			
@@ -74,9 +97,22 @@ public class PragyanMainActivity extends FragmentActivity{
 
 	
 	
-	public void setMenuTitle(String title){
-		TextView menuTitle = (TextView) findViewById(R.id.menuTitle);
-		menuTitle.setText(title);
+	public void setMenuTitle(String title, String direction){
+		if(direction.equalsIgnoreCase("next")){
+			Log.d("SWITCH","next");
+			Animation in =  AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_in_right);
+			menuSwitcher.setInAnimation(in);
+			Animation out =  AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_out_left);
+			menuSwitcher.setOutAnimation(out);
+		}
+		else if (direction.equalsIgnoreCase("prev")){
+			Log.d("SWITCH","prev");
+			Animation in =  AnimationUtils.loadAnimation(getApplicationContext(), android.R.anim.slide_in_left);
+			menuSwitcher.setInAnimation(in);
+			Animation out =  AnimationUtils.loadAnimation(getApplicationContext(), android.R.anim.slide_out_right);
+			menuSwitcher.setOutAnimation(out);
+		}
+		menuSwitcher.setText(title);
 	}
 	
 	/**
@@ -110,6 +146,17 @@ public class PragyanMainActivity extends FragmentActivity{
 		
 		
 
+	}
+
+	@Override
+	public View makeView() {
+		TextView tv = new TextView(this);
+		final float scale = getResources().getDisplayMetrics().density;
+		tv.setPadding((int)(15*scale+0.5f), (int)(10*scale+0.5f), 0, (int)(10*scale+0.5f));
+		//tv.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+		tv.setTextColor(getResources().getColor(R.color.Ivory));
+		tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 50);
+		return tv;
 	}
 
 }

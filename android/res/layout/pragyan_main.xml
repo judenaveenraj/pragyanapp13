@@ -6,16 +6,11 @@
     android:background="@color/Black"
     android:orientation="vertical" >
 
-    <TextView
+    <TextSwitcher
         android:id="@+id/menuTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dp"
-        android:paddingLeft="15dp"
-        android:paddingTop="10dp"
-        android:text="Title"
-        android:textColor="@color/Ivory"
-        android:textSize="50dp" />
+        />
 
 	<android.support.v4.view.ViewPager 
 	    android:id="@+id/pager"
