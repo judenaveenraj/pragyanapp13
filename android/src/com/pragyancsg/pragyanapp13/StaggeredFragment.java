@@ -59,6 +59,9 @@ public class StaggeredFragment extends Fragment {
 					getActivity().startActivity(moveToSub);
 				}
 				else{
+					Intent moveToEvent = new Intent(getActivity(), EventInfoActivity.class);
+					moveToEvent.putExtra("root", tag);
+					getActivity().startActivity(moveToEvent);
 					Toast.makeText(getActivity(), "No children for "+tag, Toast.LENGTH_SHORT).show();
 				}
 				

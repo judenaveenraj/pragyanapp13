@@ -11,6 +11,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
@@ -30,9 +31,16 @@ import android.widget.ViewSwitcher.ViewFactory;
 public class EventInfoActivity extends FragmentActivity{
 
 	private PragyanDataParser dataProvider;	
-	CustomPagerAdapter myPagerAdapter;
-	private ViewPager myViewPager;
+	CustomPagerAdapter mPagerAdapter;
+	private ViewPager mViewPager;
+	private PagerTabStrip mTitleIndicator;
 
+	String titles[] = {"Description","Rules","Competitions"};
+	String desc[] = {"DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+			"RulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRules"
+			,"CompetitionsCompetitionsCompetitionsCompetitionsCompetitionsCompetitionsCompetitionsCompetitionsCompetitions"};
+	private String rootName;
+	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -42,11 +50,15 @@ public class EventInfoActivity extends FragmentActivity{
 		
 		dataProvider = HelperUtils.getDataProvider();
 		Bundle bundle = getIntent().getExtras();
+		rootName = bundle.getString("root");
 		
+		TextView title = (TextView) findViewById(R.id.eventTitle);
+		title.setText(rootName);
+		mPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager());
+		mViewPager = (ViewPager) findViewById(R.id.pager);
+		mViewPager.setAdapter(mPagerAdapter);
+		mTitleIndicator = (PagerTabStrip) findViewById(R.id.pageIndicator);
 		
-		myPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager());
-		myViewPager = (ViewPager) findViewById(R.id.pager);
-		myViewPager.setAdapter(myPagerAdapter);
 
 	}
 
@@ -65,7 +77,7 @@ public class EventInfoActivity extends FragmentActivity{
 		public Fragment getItem(int position) {
 			//Get the FRAGMENT.
 			Log.d("POSITION",String.valueOf(position));
-			Fragment fragment = new InfoFragment("Description", dataProvider);
+			Fragment fragment = new InfoFragment("Description", dataProvider,position);
 			//Bundle args = new Bundle();
 			//args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position + 1);
 			//fragment.setArguments(args);
@@ -76,17 +88,30 @@ public class EventInfoActivity extends FragmentActivity{
 		public int getCount() {
 			// Show 3 total pages.
 			//METHOD THAT WILL GET FRAGMENT COUNT
-			return 1;
+			return 3;
 		}
 		
+		@Override
+		public CharSequence getPageTitle(int position) {
+			// TODO Auto-generated method stub
+			return titles[position];
+		}
 		
 
 	}
-	
 	public class InfoFragment extends Fragment{
 
-		public InfoFragment(String string, PragyanDataParser dataProvider) {
-			// TODO Auto-generated constructor stub
+		private int position;
+		public InfoFragment(String string, PragyanDataParser dataProvider, int position) {
+			this.position = position;
+		}
+		@Override
+		public View onCreateView(LayoutInflater inflater, ViewGroup container,
+				Bundle savedInstanceState) {
+			TextView tv = new TextView(getApplicationContext());
+			tv.setText(desc[position]);
+			return tv;
+			
 		}
 		
 		
