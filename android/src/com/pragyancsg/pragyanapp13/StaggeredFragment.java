@@ -43,6 +43,7 @@ public class StaggeredFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 		
 		StaggeredGridView gridView = new StaggeredGridView(getActivity());
+		gridView.setOverScrollMode(View.OVER_SCROLL_NEVER);
 		gridView.setOnItemClickListener(new OnItemClickListener() {
 			
 			@Override

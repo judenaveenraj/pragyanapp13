@@ -88,7 +88,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 			@Override
 			public void onPageSelected(int arg0) {
 				Log.d("PAGER", "select" + String.valueOf(arg0));
-				setBackground();
+				HelperUtils.setNewBg(bgSwitcher);
 				if (currentPage < arg0) {
 					setMenuTitle(
 							dataProvider.getItemUnderWithIndex(rootName, arg0)
@@ -103,6 +103,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 					currentPage = arg0;
 					return;
 				}
+				
 
 			}
 
@@ -119,33 +120,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 			}
 		});
 		myViewPager.setAdapter(myPagerAdapter);
-
-	}
-
-	public void setBackground() {
-		int picId = 0;
-		Random randomGenerator = new Random();
-		int picGen = randomGenerator.nextInt(8);
-		if (picGen == 0)
-			picId = R.drawable.blue;
-		else if (picGen == 1)
-			picId = R.drawable.green;
-		else if (picGen == 2)
-			picId = R.drawable.lime;
-		else if (picGen == 3)
-			picId = R.drawable.magenta;
-		else if (picGen == 4)
-			picId = R.drawable.orange;
-		else if (picGen == 5)
-			picId = R.drawable.pink;
-		else if (picGen == 6)
-			picId = R.drawable.purple;
-		else if (picGen == 7)
-			picId = R.drawable.red;
-		else if (picGen == 8)
-			picId = R.drawable.teal;
-		
-		bgSwitcher.setImageResource(picId);
+		HelperUtils.setNewBg(bgSwitcher);
 
 	}
 
