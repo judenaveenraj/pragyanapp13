@@ -9,22 +9,14 @@
     <ImageSwitcher
         android:id="@+id/bg_image_switcher"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:visibility="gone">
+        android:layout_height="fill_parent">
     </ImageSwitcher>
-    
-    <ImageView
-        android:id="@+id/myImageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"
-        android:src="@drawable/blue"/>
 
     <TextSwitcher
         android:id="@+id/menuTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-         />
+    />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
