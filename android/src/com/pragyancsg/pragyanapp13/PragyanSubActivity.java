@@ -21,9 +21,12 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageSwitcher;
+import android.widget.ImageView;
 import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher.ViewFactory;
@@ -42,6 +45,7 @@ public class PragyanSubActivity extends FragmentActivity implements ViewFactory{
 	 * The {@link ViewPager} that will host the section contents.
 	 */
 	private ViewPager myViewPager;
+	private ImageSwitcher bgSwitcher;
 
 	
 	@Override
@@ -62,6 +66,23 @@ public class PragyanSubActivity extends FragmentActivity implements ViewFactory{
 		Animation out =  AnimationUtils.loadAnimation(getApplicationContext(), android.R.anim.fade_out);
 		menuSwitcher.setOutAnimation(out);
 		setMenuTitle(rootName);
+		
+		bgSwitcher = (ImageSwitcher) findViewById(R.id.bg_image_switcher);
+		bgSwitcher.setFactory(new ViewFactory() {
+
+			@Override
+			public View makeView() {
+				ImageView v1 = new ImageView(getApplicationContext());
+				v1.setScaleType(ImageView.ScaleType.FIT_XY);
+				v1.setLayoutParams(new ImageSwitcher.LayoutParams(
+						LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
+				return v1;
+			}
+		});
+		bgSwitcher.setInAnimation(AnimationUtils.loadAnimation(
+				getApplicationContext(), android.R.anim.fade_in));
+		bgSwitcher.setOutAnimation(AnimationUtils.loadAnimation(
+				getApplicationContext(), android.R.anim.fade_out));
 		
 		myPagerAdapter = new CustomPagerAdapter(getSupportFragmentManager());
 		myViewPager = (ViewPager) findViewById(R.id.pager);
@@ -87,9 +108,13 @@ public class PragyanSubActivity extends FragmentActivity implements ViewFactory{
 			}
 		});
 		myViewPager.setAdapter(myPagerAdapter);
+		HelperUtils.setNewBg(bgSwitcher, getActivity());
 
 	}
 
+	public Activity getActivity(){
+		return this;
+	}
 	public void setMenuTitle(String title){
 		menuSwitcher.setText(title);
 	}

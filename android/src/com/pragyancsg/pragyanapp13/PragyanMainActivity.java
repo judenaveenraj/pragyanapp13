@@ -1,20 +1,25 @@
 package com.pragyancsg.pragyanapp13;
 
 import java.io.IOException;
+import java.util.Date;
 import java.util.Random;
+import java.util.Timer;
 
 import xmlHandlers.PragyanEventData;
 import xmlHandlers.PragyanXmlParser;
 import android.R.menu;
 import android.app.Activity;
 import android.content.res.AssetManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.text.format.Time;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -56,6 +61,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.pragyan_main);
 
+		HelperUtils.cacheBgs(this);
 		dataProvider = new PragyanDataParser(this);
 		HelperUtils.setDataProvider(dataProvider);
 
@@ -69,6 +75,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 
 			@Override
 			public View makeView() {
+				Log.d("SWITCHER","Making view");
 				ImageView v1 = new ImageView(getApplicationContext());
 				v1.setScaleType(ImageView.ScaleType.FIT_XY);
 				v1.setLayoutParams(new ImageSwitcher.LayoutParams(
@@ -88,12 +95,13 @@ public class PragyanMainActivity extends FragmentActivity implements
 			@Override
 			public void onPageSelected(int arg0) {
 				Log.d("PAGER", "select" + String.valueOf(arg0));
-				HelperUtils.setNewBg(bgSwitcher);
+				HelperUtils.setNewBg(bgSwitcher, getActivity());
 				if (currentPage < arg0) {
 					setMenuTitle(
 							dataProvider.getItemUnderWithIndex(rootName, arg0)
 									.getEventName(), "next");
 					currentPage = arg0;
+					
 					return;
 				}
 				if (currentPage > arg0) {
@@ -101,8 +109,10 @@ public class PragyanMainActivity extends FragmentActivity implements
 							dataProvider.getItemUnderWithIndex(rootName, arg0)
 									.getEventName(), "prev");
 					currentPage = arg0;
+					
 					return;
 				}
+				
 				
 
 			}
@@ -120,10 +130,14 @@ public class PragyanMainActivity extends FragmentActivity implements
 			}
 		});
 		myViewPager.setAdapter(myPagerAdapter);
-		HelperUtils.setNewBg(bgSwitcher);
+		HelperUtils.setNewBg(bgSwitcher, getActivity());
 
 	}
 
+	
+	public Activity getActivity(){
+		return this;
+	}
 	public void setMenuTitle(String title, String direction) {
 		if (direction.equalsIgnoreCase("next")) {
 			Log.d("SWITCH", "next");
