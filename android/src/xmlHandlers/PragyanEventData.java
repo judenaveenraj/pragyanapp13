@@ -8,12 +8,18 @@ import android.util.Log;
 public class PragyanEventData {
 	private String eventName;
 	private String eventType;
+	private String eventCaption;
+	public ArrayList<String> pageTitles;
+	public ArrayList<String> pageContents;
 	private Date eventDate;
 	private ArrayList<PragyanEventData> eventChildren ;
 	private String eventImage;
+	private String eventSecondaryImage;
 	
 	public PragyanEventData() {
 		eventChildren = new ArrayList<PragyanEventData>();
+		pageTitles = new ArrayList<String>();
+		pageContents = new ArrayList<String>();
 	}	
 	public PragyanEventData(String name, Date datetime, String imgurl) {
 		eventChildren = new ArrayList<PragyanEventData>();
@@ -70,10 +76,41 @@ public class PragyanEventData {
 	}
 	
 	public void print(){
-		Log.d("CONTENT",getEventName()+"    "+ getEventImage());
+		Log.d("CONTENT",getEventName()+":::::"+ getEventImage());
 		for (PragyanEventData event : getEventChildren()){
 			event.print();
 		}
+	}
+	public String getEventCaption() {
+		return eventCaption;
+	}
+	public void setEventCaption(String eventCaption) {
+		this.eventCaption = eventCaption;
+	}
+	
+	public int getPagesCount(){
+		return pageTitles.size();
+	}
+	public void addPageTitle(String title){
+		pageTitles.add(title);
+	}
+	
+	public String getPageTitle(int index){
+		return pageTitles.get(index);
+	}
+	
+	public void addPageContent(String content){
+		pageTitles.add(content);
+	}
+	
+	public String getPageContent(int index){
+		return pageContents.get(index);
+	}
+	public String getEventSecondaryImage() {
+		return eventSecondaryImage;
+	}
+	public void setEventSecondaryImage(String eventSecondaryImage) {
+		this.eventSecondaryImage = eventSecondaryImage;
 	}
 	
 }

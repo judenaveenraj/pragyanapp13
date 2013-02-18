@@ -35,10 +35,8 @@ public class EventInfoActivity extends FragmentActivity{
 	private ViewPager mViewPager;
 	private PagerTabStrip mTitleIndicator;
 
-	String titles[] = {"Description","Rules","Competitions"};
-	String desc[] = {"DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
-			"RulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRulesRules"
-			,"CompetitionsCompetitionsCompetitionsCompetitionsCompetitionsCompetitionsCompetitionsCompetitionsCompetitions"};
+	private PragyanEventData currentEvent;
+	
 	private String rootName;
 	
 	
@@ -51,6 +49,10 @@ public class EventInfoActivity extends FragmentActivity{
 		dataProvider = HelperUtils.getDataProvider();
 		Bundle bundle = getIntent().getExtras();
 		rootName = bundle.getString("root");
+		
+		currentEvent = HelperUtils.getDataProvider().getItemWithName(rootName);
+		Log.d("PAGE",String.valueOf(currentEvent.getPagesCount())+"::"+currentEvent.pageTitles.toString()+"::"+currentEvent.pageContents.toString());
+		
 		
 		TextView title = (TextView) findViewById(R.id.eventTitle);
 		title.setText(rootName);
@@ -88,13 +90,15 @@ public class EventInfoActivity extends FragmentActivity{
 		public int getCount() {
 			// Show 3 total pages.
 			//METHOD THAT WILL GET FRAGMENT COUNT
-			return 3;
+			
+			return currentEvent.getPagesCount();
 		}
 		
 		@Override
 		public CharSequence getPageTitle(int position) {
 			// TODO Auto-generated method stub
-			return titles[position];
+			
+			return currentEvent.getPageTitle(position);
 		}
 		
 
@@ -109,7 +113,7 @@ public class EventInfoActivity extends FragmentActivity{
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
 			TextView tv = new TextView(getApplicationContext());
-			tv.setText(desc[position]);
+			tv.setText("HELLLOOOO");//currentEvent.getPageContent(position));
 			return tv;
 			
 		}

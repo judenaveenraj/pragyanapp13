@@ -10,6 +10,7 @@ import xmlHandlers.PragyanEventData;
 import xmlHandlers.PragyanXmlParser;
 
 import android.app.Activity;
+import android.util.Log;
 import android.view.LayoutInflater;
 
 public class PragyanDataParser {
@@ -22,12 +23,11 @@ public class PragyanDataParser {
 		
 		this.activity = activity;
 		try {
-			PragyanXmlParser parser = new PragyanXmlParser(activity.getAssets().open("pragyan.xml"));
+			PragyanXmlParser parser = new PragyanXmlParser(activity.getAssets().open("pragyanv2.xml"));
 			parser.parseDocument();
 			while(!parser.isDone());
 			eventTree = parser.getParsedEventTree();
-			
-			//parser.printParsedData();
+			parser.printParsedData();
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

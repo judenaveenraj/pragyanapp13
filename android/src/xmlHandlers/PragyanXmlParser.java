@@ -18,7 +18,7 @@ import android.util.Log;
 
 public class PragyanXmlParser extends DefaultHandler {
 
-	
+	private final String rootUrl = "http://www.pragyan.org";
 	//Make sure to get the xml file into this
 	private ArrayList<PragyanEventData> events = new ArrayList<PragyanEventData>();
 	private Stack<PragyanEventData> stackEvents = new Stack<PragyanEventData>();
@@ -28,6 +28,7 @@ public class PragyanXmlParser extends DefaultHandler {
 	private InputStream fileToParse;
 	
 	private boolean done = false;
+	private boolean startPage = false;
 	
 	public PragyanXmlParser(InputStream file) {
 		fileToParse = file;
@@ -74,17 +75,15 @@ public class PragyanXmlParser extends DefaultHandler {
 	public void startElement(String uri, String localName, String qName,
 			Attributes attributes) throws SAXException {
 		
-		tempString = "";
-
+		if(!startPage){
+			tempString = "";
+		}
 		//Log.d("PARSE", "Starting element "+qName);
 		if(qName.equalsIgnoreCase("item")){
 			tempEvent = new PragyanEventData();
 			if(stackEvents.empty())
 				events.add(tempEvent);
 			else{
-				//Log.d("PARSE",stackEvents.peek().toString());
-				//Log.d("PARSE",tempEvent.toString());
-				
 				stackEvents.peek().appendEvent(tempEvent);
 			}
 		}
@@ -94,6 +93,14 @@ public class PragyanXmlParser extends DefaultHandler {
 			//Log.d("PARSE","Pushing to stack:"+tempEvent.toString());
 			stackEvents.push(tempEvent);
 		}
+		
+		if(qName.equalsIgnoreCase("main")){
+			startPage = true;
+		}
+		if(qName.equalsIgnoreCase("page")){
+			startPage = true;
+		}
+		
 		
 	}
 	
@@ -108,15 +115,47 @@ public class PragyanXmlParser extends DefaultHandler {
 		if(qName.equalsIgnoreCase("item")){
 			tempEvent = new PragyanEventData();
 		}
-		if(qName.equalsIgnoreCase("name")){
+		if(qName.equalsIgnoreCase("itemname")){
 			tempEvent.setEventName(tempString);
 		}
+		if(qName.equalsIgnoreCase("one")){
+			tempEvent.setEventCaption(tempString);
+		}
+		
 		if(qName.equalsIgnoreCase("imgurl")){
 			tempEvent.setEventImage(tempString);
 		}
+		
 		if(qName.equalsIgnoreCase("children")){
 			tempEvent =stackEvents.pop();
 		}
+		if(qName.equalsIgnoreCase("main")){
+			tempEvent.addPageTitle("About");
+			tempEvent.addPageContent(tempString);
+			startPage=false;
+		}
+		if(qName.equalsIgnoreCase("pagename")){
+			if(startPage){
+				tempEvent.addPageTitle(tempString);
+				tempString="";
+			}
+		}
+		if(qName.equalsIgnoreCase("pgimg")){
+			if(startPage){
+				tempEvent.setEventSecondaryImage(rootUrl+tempString);
+				tempString="";
+			}
+		}
+		if(qName.equalsIgnoreCase("content")){
+			if(startPage){
+				tempEvent.addPageTitle(tempString);
+				tempString="";
+			}
+		}
+		if(qName.equalsIgnoreCase("page")){
+			startPage=false;
+		}
+		
 	}
 	
 	@Override

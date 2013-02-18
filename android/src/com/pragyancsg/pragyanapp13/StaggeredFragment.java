@@ -29,12 +29,15 @@ public class StaggeredFragment extends Fragment {
 	public StaggeredFragment(String rootName,
 			PragyanDataParser dataProvider) {
 		int len = dataProvider.getNumberOfItemsUnder(rootName);
+		Log.d("FIXIT",rootName);
 		names = new String[len];
 		urls = new String[len];
 		for(int i=0; i<len; i++){
 			PragyanEventData item = dataProvider.getItemUnderWithIndex(rootName, i);
+			//Log.d("FIXED");
 			names[i] = item.getEventName();
 			urls[i] = item.getEventImage();
+			Log.d("FIXED",String.valueOf(i)+":::"+names[i]+":::"+urls[i]);
 		}
 	}
 
