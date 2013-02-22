@@ -1,10 +1,13 @@
 package xmlHandlers;
 
+import java.io.CharArrayWriter;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Stack;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -27,11 +30,32 @@ public class PragyanXmlParser extends DefaultHandler {
 	private String tempString;
 	private InputStream fileToParse;
 	
+	private CharArrayWriter charWriter;
+	
 	private boolean done = false;
 	private boolean startPage = false;
+	private boolean startContent = false;
+	
+	
+	
+	/***
+	 * 
+	 * 
+	 * Legend for the <br> annd <b> tags
+	 * 
+	 * --> $$##$$  :  <br />
+	 * --> $$!!$$  :  <b>
+	 * --> $$%%$$  :  </b>
+	 * 
+	 * 
+	 * 
+	 * @param file
+	 */
+	
 	
 	public PragyanXmlParser(InputStream file) {
 		fileToParse = file;
+		charWriter = new CharArrayWriter();
 	}	
 	
 	public boolean isDone(){
@@ -78,7 +102,7 @@ public class PragyanXmlParser extends DefaultHandler {
 		if(!startPage){
 			tempString = "";
 		}
-		//Log.d("PARSE", "Starting element "+qName);
+		////Log.d("PARSE", "Starting element "+qName);
 		if(qName.equalsIgnoreCase("item")){
 			tempEvent = new PragyanEventData();
 			if(stackEvents.empty())
@@ -90,7 +114,7 @@ public class PragyanXmlParser extends DefaultHandler {
 		
 			
 		if(qName.equalsIgnoreCase("children")){
-			//Log.d("PARSE","Pushing to stack:"+tempEvent.toString());
+			////Log.d("PARSE","Pushing to stack:"+tempEvent.toString());
 			stackEvents.push(tempEvent);
 		}
 		
@@ -100,6 +124,12 @@ public class PragyanXmlParser extends DefaultHandler {
 		if(qName.equalsIgnoreCase("page")){
 			startPage = true;
 		}
+		if(qName.equalsIgnoreCase("content")){
+			//Log.d("ACTION","hit content"+String.valueOf(startPage));
+			startContent = true;
+			tempString="";
+			
+		}
 		
 		
 	}
@@ -108,7 +138,8 @@ public class PragyanXmlParser extends DefaultHandler {
 	@Override
 	public void endElement(String uri, String localName, String qName)
 			throws SAXException {
-		//Log.d("PARSE", "Ending element "+qName);
+		////Log.d("PARSE", "Ending element "+qName);
+		Log.d("XML", tempString);
 		if(qName.equalsIgnoreCase("item")){
 			//tempEvent = new PragyanEventData();
 		}
@@ -131,12 +162,17 @@ public class PragyanXmlParser extends DefaultHandler {
 		}
 		if(qName.equalsIgnoreCase("main")){
 			tempEvent.addPageTitle("About");
+			tempString = tempString.replace("$$##$$", "\n");
+			tempString = tempString.replace("$$!!$$", " ");
+			tempString = tempString.replace("$$%%$$", " ");
+			Log.d("MAIN",tempString);
 			tempEvent.addPageContent(tempString);
 			startPage=false;
 		}
 		if(qName.equalsIgnoreCase("pagename")){
 			if(startPage){
-				tempEvent.addPageTitle(tempString);
+				////Log.d("FIXIT",tempString.trim());
+				tempEvent.addPageTitle(tempString.trim());
 				tempString="";
 			}
 		}
@@ -147,12 +183,17 @@ public class PragyanXmlParser extends DefaultHandler {
 			}
 		}
 		if(qName.equalsIgnoreCase("content")){
+			//Log.d("ACTION","hit contentend"+String.valueOf(startPage)+":"+tempString);
 			if(startPage){
-				tempEvent.addPageTitle(tempString);
+				tempEvent.addPageContent(charWriter.toString());
+				////Log.d("CONT",charWriter.toString());
 				tempString="";
+				charWriter.reset();
+				startContent = false;
 			}
 		}
 		if(qName.equalsIgnoreCase("page")){
+			////Log.d("FOXIT","pageend:"+String.valueOf(tempEvent.pageTitles.size()));
 			startPage=false;
 		}
 		
@@ -161,6 +202,9 @@ public class PragyanXmlParser extends DefaultHandler {
 	@Override
 	public void characters(char[] ch, int start, int length)
 			throws SAXException {
-		tempString = new String(ch, start, length);
+		if(startContent)
+			charWriter.write(ch, start, length);
+		else
+			tempString = new String(ch, start, length);
 	}
 }

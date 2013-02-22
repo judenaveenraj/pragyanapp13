@@ -100,7 +100,7 @@ public class PragyanEventData {
 	}
 	
 	public void addPageContent(String content){
-		pageTitles.add(content);
+		pageContents.add(content);
 	}
 	
 	public String getPageContent(int index){

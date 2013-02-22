@@ -28,6 +28,12 @@ public class HelperUtils {
 	
 	private static ArrayList<Drawable> bgs = new ArrayList<Drawable>();
 								
+	
+	public static int getCurrentBg(){
+		if(currBgId!=0)
+			return currBgId;
+		return bgimgs[0];
+	}
 	public static void setNewBg(ImageSwitcher is, Activity act){
 		long time = System.currentTimeMillis();
 		

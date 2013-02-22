@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<item>
-  <itemname> Events </itemname>
-  <children>
-    <item>
-      <itemname> Core Engineering </itemname>
-      <one> Breeding New-Age Technocrats </one>
-      <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/core.jpg</imgurl>
-      <children>
-        <item>
-          <itemname>Junkyard Wars </itemname>
-          <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
-          <one> Build Weapons From The Junkyard </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/junkyard_wars/introduction/junkyardwars.jpg</pgimg>
-            <content>
+<pragyan>
+  <item>
+    <itemname> Events </itemname>
+    <children>
+      <item>
+        <itemname> Core Engineering </itemname>
+        <one> Breeding New-Age Technocrats </one>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/core.jpg</imgurl>
+        <children>
+          <item>
+            <itemname>Junkyard Wars </itemname>
+            <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
+            <one> Build Weapons From The Junkyard </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/junkyard_wars/introduction/junkyardwars.jpg</pgimg>
+              <content>
 A lever is just a rod as long as you don’t use a fulcrum. “One man`s trash is another man`s treasure”. So, is everything else just junk as long as you don’t put it to use the right way?
  
 Have an opportunity to use all of your engineering prowess and intellect to create machines to battle out. Junkyard Wars is a 3-day event where you must build a working model from the junk provided to your team. 
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Online Round 1
 
 - Online round 1 will be held between 15th and 16th February, 2013.
@@ -73,10 +74,10 @@ Final Round
 - Teams have to compete aginst each other with their constructed model.		
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Each team should consist of 5 members only.
 
 - Each team must formulate their own ideas and designs. Plagiarism in any form shall lead to disqualification.  
@@ -98,10 +99,10 @@ Final Round
 - The rules indicated in the Event Format section are applicable in addition to the above mentioned.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: junkyardwars@pragyan.org
  
 Arjun Thiagarajan
@@ -111,17 +112,17 @@ Sandeep Bhat
 Phone: +91 72006 10141
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x210junkyard.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>NFS Aqua</itemname>
-          <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
-          <one> RC Motorboat Racing </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/nfs_aqua/introduction/nfs-aqua.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x210junkyard.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>NFS Aqua</itemname>
+            <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
+            <one> RC Motorboat Racing </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/nfs_aqua/introduction/nfs-aqua.jpg</pgimg>
+              <content>
 Here’s a cool respite from the array of fiery racing events! Of all, this is the only aquatic contest.
  
 You must’ve enjoyed veering through the waves in jet skis. Now, let your boat do it for you as you wield its controls.
@@ -129,10 +130,10 @@ You must’ve enjoyed veering through the waves in jet skis. Now, let your boat 
 Hold your helm tight, troubled waters ahead! 
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Event Stages
  
 - Abstract submission (Non Eliminative). 
@@ -196,10 +197,10 @@ Motor specifications
 - Speed controller should be used so as to control the speed of the dc motor.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Each team should consist of 5 members only.
  
 - Each team must formulate their own ideas and designs. Plagiarism in any form shall lead to disqualification.  
@@ -221,10 +222,10 @@ Motor specifications
 - The rules indicated in the Event Format section are applicable in addition to the above mentioned.
 
 </content>
-          </page>
-          <page>
-            <pagename> Contacts </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
 Email: nfsaqua@pragyan.org
 
 Ankit Jalan
@@ -234,24 +235,24 @@ Harsh Phophalia
 Phone: +91 81223 67921
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x250NFSAqua.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> Allumette </itemname>
-          <main> Registration deadline extended to $$!!$$17th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
-          <one> Manufacture Free-Flowing Potassium Chlorate </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/allumette/introduction/allumete1.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x250NFSAqua.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> Allumette </itemname>
+            <main> Registration deadline extended to $$!!$$17th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
+            <one> Manufacture Free-Flowing Potassium Chlorate </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/allumette/introduction/allumete1.jpg</pgimg>
+              <content>
 Pragyan’13 presents Allumette, a rare opportunity to collaborate your academic brilliance with real life problem statement directly applicable in the industrial scenario.  This event aims to be a strong platform for budding engineers to exhibit their innate talents and practical viewpoints in the process of acquiring an innovative solution for the given situation. Potassium Chlorate is the main ingredient in “Match head composition”.  In powder form, it is highly susceptible to moisture absorption from the atmosphere.  This triggers the tendency to form lump-like deposits which gradually get hardened with the passage of time.  This eventually slows down the overall process as unnecessary labor is required to remove these deposits to make Potassium Chlorate free-flowing. And now, the challenge is to propose a technically sound, economically viable and well-engineered solution to manufacture free-flowing Potassium Chlorate.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Problem Statement
  
 Check out the problem statement at http://www.pragyan.org/13/home/events/core_engineering/Allumette/.
@@ -283,10 +284,10 @@ Eligibility
 - All students with a valid identity card from their respective educational institution are eligible to participate in Allumette.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: allumette@pragyan.org
  
 Sona
@@ -295,17 +296,17 @@ Phone: +91 98424 78877
 Vaibhav 
 Phone: +91 81227 40311
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150allumete.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> D-Chrome </itemname>
-          <main>Registration deadline extended to $$!!$$17th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
-          <one> Remove The Chromium From The Waste </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/d_chrome/introduction/d-chrome.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150allumete.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> D-Chrome </itemname>
+            <main>Registration deadline extended to $$!!$$17th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
+            <one> Remove The Chromium From The Waste </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/d_chrome/introduction/d-chrome.jpg</pgimg>
+              <content>
 "Only when I saw the Earth from space, in all its ineffable beauty and fragility, did I realize that humankind's most urgent task is to cherish and preserve it for future generations."
 - Sigmund Jahn, German cosmonaut.
  
@@ -315,10 +316,10 @@ Come up with an innovative solution to tackle the danger caused by untreated eff
 GET GEARED!! GET TECH!! GET GREEN!!
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Problem Statement
  
 Check out the problem statement at http://www.pragyan.org/13/home/events/core_engineering/D_Chrome/.
@@ -350,10 +351,10 @@ Eligibility
 - All students with a valid identity card from their respective educational institution are eligible to participate in D-Chrome.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: dchrome@pragyan.org
  
 Sona
@@ -362,17 +363,17 @@ Phone: +91 98424 78877
 Vaibhav 
 Phone: +91 81227 40311
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150dchrome.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Contraptions</itemname>
-          <main> Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 55000$$%%$$</main>
-          <one> Time To Complicate An Easy Task </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/contraption/introduction/contraption.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150dchrome.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Contraptions</itemname>
+            <main> Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 55000$$%%$$</main>
+            <one> Time To Complicate An Easy Task </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/contraption/introduction/contraption.jpg</pgimg>
+              <content>
 “Simplicity is the ultimate sophistication.”
                               -Leonardo da Vinci
  
@@ -385,10 +386,10 @@ Throw in all the energy conversions you are aware of as one continuous routine w
 So, ladies and gentlemen, get ready for showcasing your wildest and most complex solutions.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
  
 Problem Statement
  
@@ -411,10 +412,10 @@ Abstract Submission
 - To submit the abstract please visit http://www.pragyan.org/13/home/events/core_engineering/contraption/. 
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations </pagename>
+              <content>
 - The entire contraption to include should remain completely within an Square whose dimensions are 4m x 4m  at any point of operation.
      
 - Once the first step has been initiated, intervention of any sort in the following steps would lead to deduction in points.
@@ -451,10 +452,10 @@ Eligibility
 - All students with a valid identity card from their respective educational institution are eligible to participate in Contraptions.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: contraptions@pragyan.org
 
 Stanish
@@ -467,26 +468,26 @@ Srinath
 Phone: +91 90421 86149
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150contraptions.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Nittro </itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 80000$$%%$$</main>
-          <one> Race Your Little Devils In The Dirt </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/nittro/introduction/nitro.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150contraptions.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Nittro </itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 80000$$%%$$</main>
+            <one> Race Your Little Devils In The Dirt </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/nittro/introduction/nitro.jpg</pgimg>
+              <content>
 NEED FOR SPEED….FORMULA 1….DIRT….BLUR….BURN OUT…. Fond of these games? Enough of sticking your heads in Play Station and PCs, it’s time to get ready. We offer you a chance to design and fabricate your own Nitro powered Remote controlled car and get down the track to race not just money and pride but for the feel….experience….thrill….desire and passion. Your Racing and Engineering Skills will be put to test in our event NITTRO-Pragyan’13. Cash prize worth INR 60000 to be won, so Think…. Design…. Create…. And don’t forget to bring your creation to NITTRO-Pragyan 13.
  
 Gentlemen racing skill is not the only thing which can earn you money and pride. Maneuvering an RC car with style and ease is a skill not possessed by everyone. To those racing fanatics out there, we offer you a chance to unravel your skills in our event NITTRO- Pragyan 13.
  
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Problem Statement
 
 To make a wireless remote controlled machine, powered only by an IC Engine which can complete and compete with other opponents on an off-road dirt track with many obstacles in the least possible time.
@@ -549,10 +550,10 @@ Free Style:
 		
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Track Specifications
 
 - The race track will be an off-road dirt track with left and right turns, hairpins, S-shaped curves, bumps and puddles.
@@ -635,10 +636,10 @@ General Rules
 - Judges decision shall be treated as final and binding on all.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: nittro@pragyan.org
 
 Jothi Prakash
@@ -646,27 +647,27 @@ Jothi Prakash
 Phone: +91 99526 17665
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x310nittro.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Hydro </itemname>
-          <main>Registration Deadline: $$!!$$20th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 20000$$%%$$</main>
-          <one> 0% Electric. 100% Hydraulic. Find Out How. </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/hydro/introduction/hydro1.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x310nittro.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Hydro </itemname>
+            <main>Registration Deadline: $$!!$$20th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 20000$$%%$$</main>
+            <one> 0% Electric. 100% Hydraulic. Find Out How. </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/hydro/introduction/hydro1.jpg</pgimg>
+              <content>
 "Water is the driving force of all nature."  
                                    - Leonardo da Vinci
  
 And so it seems. Now, get ready to design and build a hydraulic arm that can lift up and place things and also complete a task, without the use of electronics.
  
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 To design and fabricate a hydraulically actuated mechanical arm, which can pick up cups and place them on the staging area in the correct order to form the given word, in the shortest possible time.
  
 
@@ -674,10 +675,10 @@ Please check the Rules and Regulations page for the arena format.
 		
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Pre-Event Rules
  
 - Submit an abstract describing the design of the arm before February 15, 2013.
@@ -726,14 +727,14 @@ Arena Dimensions
 - Please refer the figures at the bottom for arena dimensions.
 
 </content>
-            <pgimg>/13/home/events/core_engineering/hydro/rules_and_regulations/hydro_1.jpg</pgimg>
-            <pgimg>/13/home/events/core_engineering/hydro/rules_and_regulations/hydro_3.jpg</pgimg>
-            <pgimg>/13/home/events/core_engineering/hydro/rules_and_regulations/hydro_2.jpg</pgimg>
-            <pgimg>/13/home/events/core_engineering/hydro/rules_and_regulations/hydro_4.jpg</pgimg>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+              <pgimg>/13/home/events/core_engineering/hydro/rules_and_regulations/hydro_1.jpg</pgimg>
+              <pgimg>/13/home/events/core_engineering/hydro/rules_and_regulations/hydro_3.jpg</pgimg>
+              <pgimg>/13/home/events/core_engineering/hydro/rules_and_regulations/hydro_2.jpg</pgimg>
+              <pgimg>/13/home/events/core_engineering/hydro/rules_and_regulations/hydro_4.jpg</pgimg>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: hydro@pragyan.org
 
 Rahul Ajith Kumar
@@ -743,17 +744,17 @@ Vageesh
 Phone: +91 96295 34387
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/410x150hydro.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Hover One </itemname>
-          <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 40000$$%%$$</main>
-          <one>Race Your RC Hovercraft  </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/hover_one/introduction/RC_Hovercraft.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/410x150hydro.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Hover One </itemname>
+            <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 40000$$%%$$</main>
+            <one>Race Your RC Hovercraft  </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/hover_one/introduction/RC_Hovercraft.jpg</pgimg>
+              <content>
 "Flying down to earth is called humility, at Pragyan we call it HoverOne"
  
 Let there be no terrain unconquered,no wind unmatched,as we not just fly or sail, we hover.
@@ -764,10 +765,10 @@ Race your way to Rs 40,000 and catch the thrill of drift this Pragyan.
 This time remain in the air yet play it dirty!
   
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Problem Statement
  
 To design a hovercraft or ACV (air cushion vehicle) that will be tested for speed, manoeuvrability and handling on various terrains like sand, water and gravel. It requires the participant to build a radio controlled hovercraft that could complete the specified track in the least possible time.
@@ -810,12 +811,12 @@ Track Details for Round 2:
 - Please refer to Figure 1 at the bottom of the page. 
  
 </content>
-            <pgimg>/13/home/events/core_engineering/hover_one/event_format/Track for round 1.jpg</pgimg>
-            <pgimg>/13/home/events/core_engineering/hover_one/event_format/Track for round 2.jpg</pgimg>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+              <pgimg>/13/home/events/core_engineering/hover_one/event_format/Track for round 1.jpg</pgimg>
+              <pgimg>/13/home/events/core_engineering/hover_one/event_format/Track for round 2.jpg</pgimg>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Design Constraints and Fabrication
  
 - The maximum dimensions of the model allowed are 60cm x 50cm x 50cm (lxbxh).
@@ -902,10 +903,10 @@ Eligibility
 - All students with a valid identity card from their respective educational institution are eligible to participate in Hover One.
  
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 
 Email: hoverone@pragyan.org
 
@@ -917,25 +918,25 @@ Karthik Vinayagamoorthi
 Phone: +91 80565 15050
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x140hoverone.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Delta-T </itemname>
-          <main>Registration Deadline: $$!!$$18th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
-          <one> Natural Water Heat Exchanger </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/delta_t/introduction/delta-t.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x140hoverone.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Delta-T </itemname>
+            <main>Registration Deadline: $$!!$$18th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
+            <one> Natural Water Heat Exchanger </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/delta_t/introduction/delta-t.jpg</pgimg>
+              <content>
 Delta T is back for Pragyan 2013 focusing on real time industrial solutions.
 This time around, Delta T aims to bring out ideas of innovative heat exchanger design and its application in industries. The participants are required to construct a working model of a heat exchanger to effectively transfer heat from a hot source to cold sink using a secondary heat transfer fluid without direct contact.
  
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
  
 Problem Statement
  
@@ -956,10 +957,10 @@ Event Stages
        - Shortlisted teams must bring their working models on the day of the event for testing. The model will be tested by the judging 	panel based on the judging criteria.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Maximum of 3 members per team.
  
 - Each team will be provided with 2 litres of water at room temperature (C1 1 litre and C2 1 litre) and 2 litres of water at elevated temperature (60-70oC).
@@ -992,10 +993,10 @@ Eligibility
 - All students with a valid identity card from their respective educational institution are eligible to participate in Delta-T.
  
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: deltat@pragyan.org
 
 Monica Roy
@@ -1005,25 +1006,25 @@ Gowtham Kumar T
 Phone: +91 97898 01257
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x160deltaT.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Green Electricity </itemname>
-          <main>Registration deadline extended to $$!!$$18th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 10000$$%%$$</main>
-          <one> Develop A Clean Energy Source </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/green_electricity/introduction/green-electricity1.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x160deltaT.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Green Electricity </itemname>
+            <main>Registration deadline extended to $$!!$$18th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 10000$$%%$$</main>
+            <one> Develop A Clean Energy Source </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/green_electricity/introduction/green-electricity1.jpg</pgimg>
+              <content>
 The recent failures of India’s power grid have not only forced more than 600 million people to survive without electricity – they’ve demonstrated the need for massive investments in clean technology and infrastructure. The emphasis on green technology is a product of the pricking question due to growing concerns about the environment.  The nitty-gritty of this event is to develop an idea for clean energy generation. 
 With plenty of electricity problems in Southern states and opposition to other viable power sources by many players, it becomes clear that conventional, non-renewable energy is not the solution. This necessitates development of clean energy. If you think you have that little ‘spark’ that has ‘potential’ to solve a seemingly unsolvable issue at hand, this is for you.
   
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Problem Statement
  
 Alternative clean energy ways to produce electricity
@@ -1046,10 +1047,10 @@ We invite proposals to an alternative green energy solution.
        - By products if any.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Round 1
  
 - The participants have to submit the complete description of their idea, with fully explained models and diagrams. The teams will be shortlisted.
@@ -1089,10 +1090,10 @@ Eligibility
 - All students with a valid identity card from their respective educational institution are eligible to participate in Green Electricity.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: greenelectricity@pragyan.org
 
 Kotha Praneetha
@@ -1102,27 +1103,27 @@ K.Vasanthi Lakshmi
 Phone: +91 90039 93564
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x240greenelectricity.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> Topographya</itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 20000$$%%$$</main>
-          <one></one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/core_engineering/topographya/introduction/topographia1.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x240greenelectricity.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> Topographya</itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 20000$$%%$$</main>
+            <one></one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/core_engineering/topographya/introduction/topographia1.jpg</pgimg>
+              <content>
 This is a fun-filled Civil Engineering based competition.
 The participants will be asked to locate the position of a treasure based on purely numerical data and alphabetic symbols. Using their knowledge on ‘Surveying’ they have to crack the data and reach the position of the treasure.
  
 Note: This event demands only the basic technical knowledge of the participants and not supreme skills.
  
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Round 1
  
 - Written type and eliminative.
@@ -1141,10 +1142,10 @@ Round 2
 - This round will be held in the morning. 
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 General Rules
  
 - A team should comprise of 3 members.
@@ -1154,10 +1155,10 @@ General Rules
 - Surveying instruments and other necessary equipments will be provided. The team will be accountable for any damage caused to the instruments.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: topographya@pragyan.org
 
 Vasudha
@@ -1167,30 +1168,30 @@ Vidya Sagar
 Phone: +91 97900 92710
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x220topo.jpg</imgurl>
-        </item>
-      </children>
-    </item>
-    <item>
-      <itemname>Innovation</itemname>
-      <one>Ideas For Life/Ideas That Last</one>
-      <children>
-        <item>
-          <itemname> Sanrachana</itemname>
-          <main>On-Spot Registrations$$##$$Prize money worth $$!!$$INR 21000$$%%$$</main>
-          <one>On-Spot Model Building Competition</one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/innovation/sanrachana/introduction/sanrachana.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x220topo.jpg</imgurl>
+          </item>
+        </children>
+      </item>
+      <item>
+        <itemname>Innovation</itemname>
+        <one>Ideas For Life/Ideas That Last</one>
+        <children>
+          <item>
+            <itemname> Sanrachana</itemname>
+            <main>On-Spot Registrations$$##$$Prize money worth $$!!$$INR 21000$$%%$$</main>
+            <one>On-Spot Model Building Competition</one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/innovation/sanrachana/introduction/sanrachana.jpg</pgimg>
+              <content>
 Sanrachana is an event of technical nature, which puts to test the skill of individuals in making working models with non-construction materials (drinking straws, popsicle sticks, matchsticks, pins and such) within a specified time and gauges their logical and implementation skills.
  
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Event is conducted on each of the three days of Pragyan 2013.
  
 - The Model to be built and the task it has to perform will be specified on the day of the event.
@@ -1200,10 +1201,10 @@ Sanrachana is an event of technical nature, which puts to test the skill of indi
 - The criteria for judging will depend on the task to be performed and will be declared on the day of the event.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Maximum of 3 participants per team.
  
 - Sufficient material and time will be given for model making.
@@ -1217,10 +1218,10 @@ Sanrachana is an event of technical nature, which puts to test the skill of indi
 - All students with a valid identity card from their respective educational institution are eligible to participate in Sanrachana.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: sanrachana@pragyan.org
 
 Chandrasekhar
@@ -1230,26 +1231,26 @@ Vivek
 Phone: +91 99431 79395
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x210sanrachana.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Anveshanam </itemname>
-          <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 35000$$%%$$</main>
-          <one> Present Your Ideas </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/innovation/anveshanam/introduction/anveshanam1.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x210sanrachana.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Anveshanam </itemname>
+            <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 35000$$%%$$</main>
+            <one> Present Your Ideas </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/innovation/anveshanam/introduction/anveshanam1.jpg</pgimg>
+              <content>
 Do scientific principles energize you? Are you of the opinion that innovation and creativity are best put as practice in applied science? That is the essence of engineering. Do you feel that you have a wealth of ideas or a brilliant conception only that you cannot find a platform to express it? Look no further. 
  
 All you need is a laptop and lots of creativity and you are set to go. Quench your thirst for technology as you battle out amongst your peers and you will be fittingly rewarded.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Preliminary round will be held online.
 
 - New ideas are appreciated and papers with originality and feasibility are given preference in the selection.
@@ -1269,10 +1270,10 @@ All you need is a laptop and lots of creativity and you are set to go. Quench yo
        - Mechanical Sciences and Production Technology
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Paper Submission
  
 - Participants have to submit their full paper for scrutiny, abstracts will not be entertained.  
@@ -1335,10 +1336,10 @@ General Rules
 - Participation certificate will be given to all the shortlisted participants.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 
 
 Email: anveshanam@pragyan.org
@@ -1353,26 +1354,26 @@ Gaurav W S
 Phone: +91 99405 10133
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/260x210anveshanam.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Aakriti </itemname>
-          <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
-          <one> Live Design Contest </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/innovation/aakriti/introduction/aakriti.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/260x210anveshanam.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Aakriti </itemname>
+            <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
+            <one> Live Design Contest </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/innovation/aakriti/introduction/aakriti.jpg</pgimg>
+              <content>
 Engineering is all about imagination and ingenuity. Rather than just theories and their application, it revolves around simpler domains such as indigenous thinking, common sense and elementary logic, all of which arise from the Supreme Intelligence, the "Pragyan" in us. Technology, as we know it today, is the manifestation of millennia of Pragyanic thought and action, which has unflinchingly served and enthralled mankind since the invention of the Wheel.
  
 Pragyan, the annual Techno-Management festival of NIT, Trichy is a humble attempt to promote and foster this co-existential relationship between Man and Technology. The insignia, insinuating Man's eternally progressive leap over the Wheel of Technology, is symbolic of Pragyan’s endeavour to inculcate the spirit of engineering, innovation and forward thinking among the youth. For over half a decade, Pragyan has worked tirelessly towards this goal, by churning out several memorable editions, each of which has enlightened, emboldened and inspired an entire generation of engineers.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Problem Statement
  
 - Pragyan 2013 is planned for Feb 28 - March 3, 2013 and will play host to a series of events and competitions which will be attended by a multitude of colleges throughout the country. To conduct an event of this scale, any college campus requires a variety of spaces which are used for a host of uses and functions which change over the duration of the event and based on the nature of the event as well. NIT Trichy's infrastructure for these events includes the Barn hall, the LHC, the EEE Audi, and the halls in the Admin block with the central ground. Other spaces such as the department classrooms and labs are used in conjunction with these to serve a wide range of events.
@@ -1393,10 +1394,10 @@ Problem Statement
 *Please understand that it would be our pleasure to construct the winning project, but we reserve the right to not build the winning project (or to choose the project next in line) if any complications arise during the planning or execution stages, or otherwise.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - The final submission shall be an A/V presentation up to a maximum of 15 minutes.
 
 - A single printed A1 pin-up sheet showing working details and architectural drawings should also be included as a part of the presentation.
@@ -1408,10 +1409,10 @@ Problem Statement
 - The judges’ decisions shall be final and binding.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 
 Email: aakriti@pragyan.org
 
@@ -1422,17 +1423,17 @@ Ajay Kumar Choudhary
 Phone: +91 87546 39769
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150AAKRITI.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>B-Green </itemname>
-          <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 20000$$%%$$</main>
-          <one> Green Campus Design Competition </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/innovation/b_green/introduction/BGreen_landing.png</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150AAKRITI.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>B-Green </itemname>
+            <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 20000$$%%$$</main>
+            <one> Green Campus Design Competition </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/innovation/b_green/introduction/BGreen_landing.png</pgimg>
+              <content>
 “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”
                                                                              - Buckminster Fuller
  
@@ -1443,10 +1444,10 @@ The concept of Green Constructions has significantly evolved in the recent decad
 With Green technology emerging as one of the niche areas of potential in the building scenario, Pragyan 2013 collaborating with IGBC takes pride in presenting our fellow eco-friends, B GREEN, the race to design the ultimate green building.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Problem Statement
  
 - To download the problem statement for B-Green, please visit http://www.pragyan.org/13/home/events/innovation/b_green/.
@@ -1468,10 +1469,10 @@ Round 2: Finals
 - The design of the models and the technologies adopted will be discussed in detail with a panel of experts from IGBC to evaluate the design, rating them on their efficiency and economy as a green building.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - The event is open to all.
  
 - Each team can consist of a maximum of three participants.
@@ -1495,10 +1496,10 @@ Round 2: Finals
 - Judges' decision on the best model will be final and binding.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 E-mail: bgreen@pragyan.org
 
 Subramanian S
@@ -1508,17 +1509,17 @@ Shibhu S Kumaar
 Phone: +91 84382 06285
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/BGreen_Thumbnail.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> Concept Car Challenge </itemname>
-          <main>Registration Deadline: $$!!$$20th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 20000$$%%$$</main>
-          <one> Design Your Concept Car </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/innovation/c3/introduction/concept-car.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/BGreen_Thumbnail.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> Concept Car Challenge </itemname>
+            <main>Registration Deadline: $$!!$$20th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 20000$$%%$$</main>
+            <one> Design Your Concept Car </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/innovation/c3/introduction/concept-car.jpg</pgimg>
+              <content>
 "A true designer doesn’t wait to see what the future holds...
  ...Because the future is happening in his imagination today."
  
@@ -1530,10 +1531,10 @@ So Go Ahead. Let your imagination run wild! Invoke randomness upon thee and let 
  
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Phase 1
 
 - Participants are required to bring forth any innovative concept for a four-wheeled vehicle.
@@ -1548,10 +1549,10 @@ Phase 2
 - The presentation should include an outline of the concept, external appearance, highlights on specific and unique features incorporated in the concept, and a general layout of the vehicle that accounts for the placement of the essentials(engine, transmission etc.)
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Maximum of two members per team. One entry per team only.
  
 - Participants selected for the presentation round are required to carry a bonafide certificate or identity card of their institute.
@@ -1592,41 +1593,41 @@ Judging Criteria
 - Apart from these, three different fields of Judge's discretion will be revealed on the spot(if any) and a separate winner for on the spot from Judge's own selection apart from main winners can also be declared.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: c3@pragyan.org
 
 Vishwajeet
 Phone: +91 98432 59403
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150conceptcar.jpg</imgurl>
-        </item>
-      </children>
-      <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/innovation.jpg</imgurl>
-    </item>
-    <item>
-      <itemname>Robovigyan </itemname>
-      <one>Your Intelligence Hard-Wired</one>
-      <children>
-        <item>
-          <itemname> Traffic Rush</itemname>
-          <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
-          <one> The Line Follower Event </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/robovigyan/traffic_rush/Introduction/traffic-rush1.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150conceptcar.jpg</imgurl>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/innovation.jpg</imgurl>
+      </item>
+      <item>
+        <itemname>Robovigyan </itemname>
+        <one>Your Intelligence Hard-Wired</one>
+        <children>
+          <item>
+            <itemname> Traffic Rush</itemname>
+            <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
+            <one> The Line Follower Event </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/robovigyan/traffic_rush/Introduction/traffic-rush1.jpg</pgimg>
+              <content>
 A simple line follower event for beginners in robotics. However the bot not only has to traverse a black line on a white background, but has to negotiate through obstacles, inversions and discontinuity and determine the correct path and navigate through a toll plaza.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Problem Statement
  
 - Build an autonomous line follower robot which would negotiate through obstacles, inversions and discontinuity and determine the correct path and navigate through a toll plaza. 
@@ -1679,11 +1680,11 @@ Controls
 - It should not receive any external help during the course of the run.
 
 </content>
-            <pgimg>/13/home/events/robovigyan/traffic_rush/event_format/123.jpg</pgimg>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+              <pgimg>/13/home/events/robovigyan/traffic_rush/event_format/123.jpg</pgimg>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Event Rules
  
 - All teams will be given a calibration time of 10 minutes.
@@ -1746,10 +1747,10 @@ General Rules:
 - The organizers reserve the rights to change any or all of the above rules as they deem fit.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: trafficrush@pragyan.org
 
 Vignesh P
@@ -1759,24 +1760,24 @@ Ram Prasad R
 Mobile: +91 96008 46482
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/310x200traffic-rush.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Bank Job </itemname>
-          <main>Registration Deadline: $$!!$$20th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 40000$$%%$$</main>
-          <one> Pull Off A Heist Using Image Processing</one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/robovigyan/bank_jobs/introduction/bankjob.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/310x200traffic-rush.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Bank Job </itemname>
+            <main>Registration Deadline: $$!!$$20th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 40000$$%%$$</main>
+            <one> Pull Off A Heist Using Image Processing</one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/robovigyan/bank_jobs/introduction/bankjob.jpg</pgimg>
+              <content>
 The Pragyan Bank has a sophisticated security system. Like any security system it has its own flaws. Take advantage of these flaws and build an autonomous robot based on image processing principles to pull off a heist.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 The Arena
 
 - Please refer to the figure at the bottom of the page for the arena. 
@@ -1839,10 +1840,10 @@ Robot Specifications
 - If a team is getting any of their Microcontroller Boards or other electronic stuff printed on PCBs, the layouts and Schematics of the boards must be submitted to the organisers beforehand.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Eligibility
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in Bank Job.
@@ -1863,10 +1864,10 @@ General Rules
 - A team may comprise of maximum 4 members and all teams must have their college id cards.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: bankjob@pragyan.org
 
 Manikandan Ananth
@@ -1876,27 +1877,27 @@ Vighnesh Susrutha
 Phone: +91 94446 11242
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/140x200bankjob.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Robowars </itemname>
-          <main>Registration deadline extended to $$!!$$9th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 50000$$%%$$</main>
-          <one> Pit Your Robot Against The Rest </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/robovigyan/robo_war/introduction/robowars1.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/140x200bankjob.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Robowars </itemname>
+            <main>Registration deadline extended to $$!!$$9th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 50000$$%%$$</main>
+            <one> Pit Your Robot Against The Rest </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/robovigyan/robo_war/introduction/robowars1.jpg</pgimg>
+              <content>
 "War does not determine who is right - only who is left."
               -Bertrand Russell.
  
 Welcome to the battle of the bots, Robowars!
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Abstract Submission
  
 - The written abstract should be prepared on the following lines:
@@ -1945,10 +1946,10 @@ Criteria for Victory
 	- Damage: Through deliberate action, a robot either directly, or indirectly using the Arena Hazards, reduces the functionality, effectiveness or defensibility of an opponent. Damage is not considered relevant if a robot inadvertently harms itself. Also, if a pressure vessel or a rapidly spinning device on a robot fragments, any damage to the opponent will not be considered "deliberate".
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Safety Rules
  
 - Compliance with all event rules is mandatory. It is expected that competitors stay within the rules and procedures of their own accord and do not require constant policing
@@ -2084,10 +2085,10 @@ Weapons Systems
 - The competition will be played on a knock-out basis.There can be some hazards in the arena (subject to change, will be notified as soon as decided) 
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: robowars@pragyan.org
 
 Alpeksh Goyal          
@@ -2100,24 +2101,24 @@ Shwetang Shekhar
 Phone: +91 90436 87308
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/160x200robowars.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Lanka Reloaded </itemname>
-          <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 40000$$%%$$</main>
-          <one> A Unique Pick And Place Robotic Event </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/robovigyan/lanka_reloaded/introduction/lanka.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/160x200robowars.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Lanka Reloaded </itemname>
+            <main>Registration Deadline: $$!!$$10th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 40000$$%%$$</main>
+            <one> A Unique Pick And Place Robotic Event </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/robovigyan/lanka_reloaded/introduction/lanka.jpg</pgimg>
+              <content>
 Years ago the great hero Rama led an expedition to the mystical land of Sri Lanka, to rescue his wife Sita from the clutches of the daemon king Ravana. On their way they faced a great conundrum of crossing the vast Indian Ocean. Rama along with his army built a floating bridge across the ocean, the famous Ram Setu. We are all aware of the epic battle that took place between daemon king Ravana and Rama, resulting in Ravana’s defeat and salvage of Sita. We at Pragyan’13 give you an opportunity in rebuilding Ram Setu.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Please refer to Figure 1 at the bottom of the page.
  
 - Each team has to make a manual robot capable of picking and placing tennis balls.
@@ -2200,17 +2201,17 @@ Game rules:
 - No points will be deducted, if the bot drops the ball, after picking it up completely or partially, in the boulder region. However, if the bot drops the balls on or after the slope, then negative points will be awarded, and the ball will be placed back in the boulder region.
 
 </content>
-            <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/arenaFinal.jpg</pgimg>
-            <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/arena1.png</pgimg>
-            <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_dimensions.png</pgimg>
-            <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_dimensions2.png</pgimg>
-            <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_dimensions_aft.png</pgimg>
-            <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_dimensions_aft2.png</pgimg>
-            <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_redball.png</pgimg>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+              <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/arenaFinal.jpg</pgimg>
+              <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/arena1.png</pgimg>
+              <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_dimensions.png</pgimg>
+              <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_dimensions2.png</pgimg>
+              <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_dimensions_aft.png</pgimg>
+              <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_dimensions_aft2.png</pgimg>
+              <pgimg>/13/home/events/robovigyan/lanka_reloaded/event_format/lanka_redball.png</pgimg>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Eligibility
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in Lanka Reloaded.
@@ -2236,10 +2237,10 @@ General Rules
 - Decision of the judges will be final.
 
 </content>
-          </page>
-          <page>
-            <pagename> Frequesntly Asked Questions</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Frequesntly Asked Questions</pagename>
+              <content>
 Q1. Is it ok if more than 1 team participates from the same college?
  
 Yes, it is completely fine for any number of teams to participate from the same college. However, in case judges feel that any two teams have copied the bot design from each other, both teams will be disqualified. 
@@ -2270,10 +2271,10 @@ The mechanism as such, must not be ready-made. Only the 'gripper', can be ready 
  
 Contact the mentioned numbers, for any further queries. You can also email the queries to the email address given.
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: lankareloaded@pragyan.org
 
 
@@ -2287,31 +2288,31 @@ Govinda Pandey
 Phone: +91 96779 06037
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x410lanka.jpg</imgurl>
-        </item>
-      </children>
-      <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/robovigyan.jpg</imgurl>
-    </item>
-    <item>
-      <itemname> Brainwork </itemname>
-      <one> Food For Thought</one>
-      <children>
-        <item>
-          <itemname>Pragyan Main Quiz </itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 15000$$%%$$</main>
-          <one> This Is THE Quiz </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/brainwork/pragyan_main_quiz/introduction/pragyanmainquiz.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x410lanka.jpg</imgurl>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/robovigyan.jpg</imgurl>
+      </item>
+      <item>
+        <itemname> Brainwork </itemname>
+        <one> Food For Thought</one>
+        <children>
+          <item>
+            <itemname>Pragyan Main Quiz </itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 15000$$%%$$</main>
+            <one> This Is THE Quiz </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/brainwork/pragyan_main_quiz/introduction/pragyanmainquiz.jpg</pgimg>
+              <content>
 Bring your grey cells to the party as Pragyan is back again with its flagship quiz. Far from classroom rote, this quiz is all about the world of Science and Technology.  Get ready for a roller coaster ride into the intense world of techno quizzing.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Prelims + Finals.
 
 - No registration required.
@@ -2319,19 +2320,19 @@ Bring your grey cells to the party as Pragyan is back again with its flagship qu
 - 6/8 teams in the finals.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Teams of 3 (max).
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in Pragyan Main Quiz.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: pragyanmainquiz@pragyan.org
 
 
@@ -2339,17 +2340,17 @@ Ravikiran Ramaswamy
 Phone: +91 98842 96038
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/310x200mainquiz.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> Sudoku Championship</itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 6000$$%%$$</main>
-          <one> Sudoku Solving Contest </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/brainwork/sudoku/introduction/sudoku.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/310x200mainquiz.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> Sudoku Championship</itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 6000$$%%$$</main>
+            <one> Sudoku Solving Contest </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/brainwork/sudoku/introduction/sudoku.jpg</pgimg>
+              <content>
 Do you feel that the logical spirit inside does give you sleepless nights?
 
 Do you dream of placing numbers in combinatorial grids while getting lost and running from chasing numbers who wants their place?
@@ -2359,10 +2360,10 @@ This Pragyan we bring you the Holy Mother of Puzzles. The number crunching puzzl
 Whether you want to sing a tribute, like Peter Levy’s, or you love to solve it, you are heartily invited to the Dais. Let the spirit of curiosity ride you in solving the biggest mysteries of Sudoku’s number placements algorithms. Let the puzzler inside you come out and may the best puzzler set the stage on countdown-fire and win the title of the ‘Sudoku Champion’13’!
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Event Stages
  
 - Sudoku Championship is an on-spot event.
@@ -2378,10 +2379,10 @@ Final round
 - Candidates are expected to be prepared with the solving spirit of various variants to unleash the inner champion.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 Judging and Protest
  
 - In parts where order or time plays an important role, the participant who solved need to raise their hands and a coordinator will come to their table and note the exact time of submission on their puzzle sheet.
@@ -2421,10 +2422,10 @@ Eligibility
 - All students with a valid identity card from their respective educational institution are eligible to participate in Sudoku Championship.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: sudoku@pragyan.org
 
 
@@ -2441,17 +2442,17 @@ Rohini Muthuvelan
 Phone: +91 97888 55625
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x140sudoku.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> Biz Quiz</itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 13500$$%%$$</main>
-          <one> Your Quintessential Business Quiz </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/brainwork/biz_quiz/introduction/bizquiz.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x140sudoku.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> Biz Quiz</itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 13500$$%%$$</main>
+            <one> Your Quintessential Business Quiz </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/brainwork/biz_quiz/introduction/bizquiz.jpg</pgimg>
+              <content>
 Are you the kind that thrives on the business section of the news every day?
 
 We make you an offer you can’t refuse.
@@ -2459,10 +2460,10 @@ We make you an offer you can’t refuse.
 Pragyan is back with a bigger and better edition of the Pragyan Biz Quiz. From Apple to Zynga, do you have the wits to be crowned the champion of biz quizzing?
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Prelims + Finals.
 
 - No registration required.
@@ -2470,95 +2471,95 @@ Pragyan is back with a bigger and better edition of the Pragyan Biz Quiz. From A
 - 6/8 teams in the finals.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Teams of 3 (max).
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in Biz Quiz.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: bizquiz@pragyan.org
 
 Ashwin CV 
 Phone: +91 94449 46198 
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x160bizquiz.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Event X </itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 7000$$%%$$</main>
-          <one> The Mystery Quiz </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/brainwork/eventx/introduction/quizx.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x160bizquiz.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Event X </itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 7000$$%%$$</main>
+            <one> The Mystery Quiz </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/brainwork/eventx/introduction/quizx.jpg</pgimg>
+              <content>
 The mystery quizzing event of Pragyan, Event X is the place to be for all you techno geeks.
 We’ve seen the likes of Internet pop culture quiz and Gaming quiz in the previous editions. This next one might just be your forte. Gear up for the ride.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Prelims only.
 
 - No registration required.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Teams of 3 (max).
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in Event X.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: eventx@pragyan.org
 
 Ashwin CV 
 Phone: +91 94449 46198
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/240x200mysteryquiz.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> Labyrinth</itemname>
-          <main>Prize money worth   $$!!$$INR 30000$$%%$$</main>
-          <one> The Online Treasure Hunt </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/brainwork/labyrinth/introduction/ideasBulb.png</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/240x200mysteryquiz.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> Labyrinth</itemname>
+            <main>Prize money worth   $$!!$$INR 30000$$%%$$</main>
+            <one> The Online Treasure Hunt </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/brainwork/labyrinth/introduction/ideasBulb.png</pgimg>
+              <content>
 Labyrinth brings to you a series of puzzles, an enthralling treasure hunt of sorts. It is a quest that tests your code-cracking, brainstorming and lateral thinking, while subtly nudging your innate capacity to think outside the box. This Pragyan, experience thrills at par with being in an Indiana Jones adventure. Prepare yourself for twists and turns; tune your eyes and mind to spot the black cat in the dark room.
  
 Labyrinth is a furious race that pushes its participants to the extreme of their abilities, urging them to delve deeper and unravel each layer of mystery as quickly as possible.  The race ends during Pragyan, when the most compelling levels of the event seek out only the worthy. This hunt promises to be an adrenaline packed race with contenders fighting to reach the end of the rainbow before the rest and claim the pot of gold that is rightfully theirs.
 
 </content>
-          </page>
-          <page>
-            <pagename>Play</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Play</pagename>
+              <content>
 - To play Labyrinth, please visit http://www.pragyan.org/13/home/events/brainwork/labyrinth/.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - This single stage multi-level event (40 - 50 levels) will serve as a run up to Pragyan, climaxing on the days of Pragyan 2013.
  
 - This event will contain stages of varying difficulty levels, some more, some less challenging, with a beginner friendly learning curve.
@@ -2569,10 +2570,10 @@ Labyrinth is a furious race that pushes its participants to the extreme of their
  
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Every level has an answer or a method that would take you to the next level. Try all to get to the next  level; don't be limited to the picture or to the browser.
  
 - The answer of a particular level gives you access to the next level.
@@ -2592,10 +2593,10 @@ Labyrinth is a furious race that pushes its participants to the extreme of their
 - However, the amount of time you took for the game is calculated from the time you started playing, and is not the time you spent on the web site.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Mail to: labyrinth@pragyan.org
 
 Aditya Muraletharan
@@ -2611,24 +2612,24 @@ Vignesh Sushrutha
 Phone: +91 94446 11242
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/410x150labyrinth.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>How Stuff Works </itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 13500$$%%$$</main>
-          <one> Uncommon Trivia About Everything Common </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/brainwork/how_stuff_works/introduction/howstuffworks.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/410x150labyrinth.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>How Stuff Works </itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 13500$$%%$$</main>
+            <one> Uncommon Trivia About Everything Common </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/brainwork/how_stuff_works/introduction/howstuffworks.jpg</pgimg>
+              <content>
 A test of techno know- how and the workings of the world around us, Pragyan HSW gives you a chance to flaunt your geekiness on a whole new level. Expect to be challenged. We are waiting.
  
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Prelims + Finals.
  
 - No registration required.
@@ -2636,52 +2637,52 @@ A test of techno know- how and the workings of the world around us, Pragyan HSW 
 - 6/8 teams in the finals.
  
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Teams of 3 (max).
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in How Stuff Works.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: howstuffworks@pragyan.org
 
 Suhas Srinivasan
 Phone: +91 97912 15750
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/220x200howstuffworks.jpg</imgurl>
-        </item>
-      </children>
-      <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/brainworks.jpg</imgurl>
-    </item>
-    <item>
-      <itemname> CodeIt </itemname>
-      <one> Coders Do It Byte By Byte</one>
-      <children>
-        <item>
-          <itemname>Bytecode </itemname>
-          <main>Prize money worth   $$!!$$INR 87500$$%%$$</main>
-          <one> Online programming contest </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/Codeit/bytecode/introduction/bytecode.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/220x200howstuffworks.jpg</imgurl>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/brainworks.jpg</imgurl>
+      </item>
+      <item>
+        <itemname> CodeIt </itemname>
+        <one> Coders Do It Byte By Byte</one>
+        <children>
+          <item>
+            <itemname>Bytecode </itemname>
+            <main>Prize money worth   $$!!$$INR 87500$$%%$$</main>
+            <one> Online programming contest </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/Codeit/bytecode/introduction/bytecode.jpg</pgimg>
+              <content>
 Picture this. The best brains in the world competing against you, coding against time to compile their most efficient programs. For those looking for a worldwide exposure of your coding skills, BYTECODE ‘13 sets the stage for you. Fight it out against competitors from different countries, and try to wrest the mantle of Top Coder.
  
 Byte code or bite dust.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - This is an online event. Participation is possible from anywhere in the world.
  
 - Bytecode is a 5 hour ACM ICPC style algorithm intensive online programming competition.
@@ -2699,10 +2700,10 @@ Byte code or bite dust.
 - The objective is to solve problems and score maximal total points.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - A team may consist of a maximum of 3 members (not necessarily from the same institute).
  
 - The final ranking is based on the total number of problems solved, ties broken by the total time consumed.
@@ -2722,10 +2723,10 @@ Byte code or bite dust.
 - In case of any discrepancies, the organizers' decision will be final.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: bytecode@pragyan.org
 
 Abhishek Parthasarathy
@@ -2735,25 +2736,25 @@ Aditya Muraletharan
 Phone: +91 97893 89606
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x210bytecode.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> Digital Fortress</itemname>
-          <main>Registration Deadline: $$!!$$26th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
-          <one> Live Online Hacking Contest </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/Codeit/digital_fortress/introduction/logo.png</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x210bytecode.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> Digital Fortress</itemname>
+            <main>Registration Deadline: $$!!$$26th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
+            <one> Live Online Hacking Contest </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/Codeit/digital_fortress/introduction/logo.png</pgimg>
+              <content>
 Welcome to Digital Fortress – the coders’ battlefield to infiltrate the enemy and capture the flag.  Are you the next hacker waiting to take the world by storm?  Breach this fortress. 
 The event is held online going live during Pragyan.
  
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Participants are required to register for the event in pairs of two advance -- optional.
  
 - Two rounds have been planned.
@@ -2763,10 +2764,10 @@ The event is held online going live during Pragyan.
 - The final round being “Control the Grid” round.
 
 </content>
-          </page>
-          <page>
-            <pagename> Round 1</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Round 1</pagename>
+              <content>
 - It is a level-based contest.
 
 - All teams will start at Lvl. 1 through Lvl. 9001.
@@ -2798,10 +2799,10 @@ The event is held online going live during Pragyan.
 	- Don't share keys; it is a stupid thing to do.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: digitalfortress@pragyan.org
 
 Deepak M 
@@ -2811,17 +2812,17 @@ Vignesh Paneerselvam P
 Phone: +91 94873 66850
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/260x210digi.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Treasure Hunt </itemname>
-          <main>Registration Deadline: $$!!$$26th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 16000$$%%$$</main>
-          <one> An Adventure In Linux </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/Codeit/treasure_hunt/introduction/treasure-hunt.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/260x210digi.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Treasure Hunt </itemname>
+            <main>Registration Deadline: $$!!$$26th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 16000$$%%$$</main>
+            <one> An Adventure In Linux </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/Codeit/treasure_hunt/introduction/treasure-hunt.jpg</pgimg>
+              <content>
 The stage is set.
 The maze is virtual.
 You have the most dangerous weapon
@@ -2831,10 +2832,10 @@ Explore the surroundings, hack into the network, break the clues and voila you a
 A challenge for you to prove your linux skill!
  
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - The preliminary Round will be an ONLINE QUIZ.
  
 - The quiz will have both objective and subjective questions.
@@ -2854,10 +2855,10 @@ A challenge for you to prove your linux skill!
 - A maximum of 3 life-lines will be provided incase the team is unable to move on using the given clue.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Use of a Life-line, leads to deduction of points (3 lifelines at each check point).
  
 - 3 people per team.
@@ -2865,27 +2866,27 @@ A challenge for you to prove your linux skill!
 - Use of restricted commands, invokes a warning. If a team uses one of the restricted commands a second time, they will be disqualified.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: treasurehunt@pragyan.org
 
 Harish 
 Phone: +91 77086 62314 
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150treasurehunt.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Crack The Shell </itemname>
-          <main>Registration Deadline: $$!!$$26th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
-          <one> Online Shell Scripting Event </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/Codeit/crack_the_shell/introduction/crack-the-shell.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150treasurehunt.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Crack The Shell </itemname>
+            <main>Registration Deadline: $$!!$$26th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 25000$$%%$$</main>
+            <one> Online Shell Scripting Event </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/Codeit/crack_the_shell/introduction/crack-the-shell.jpg</pgimg>
+              <content>
 Are you a FOSS enthusiast?
 Do you love the terminal?
 This event is just for you!
@@ -2895,10 +2896,10 @@ We're guessing that you're familiar with the shell.  For those without a clue, l
 'Crack the Shell' is all about solving simple day to day tasks on your computer through the terminal.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - The first round is selective. All other rounds are eliminative. The top teams in each round qualify to the next.
  
 - Round 1: Online quiz
@@ -2908,10 +2909,10 @@ We're guessing that you're familiar with the shell.  For those without a clue, l
 - Further details will be put up soon!
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - A team can consist of a maximum of 2 members.
  
 - A team can consist of participants from different Institutions.
@@ -2923,34 +2924,34 @@ We're guessing that you're familiar with the shell.  For those without a clue, l
 - Decision of the judges will be binding.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: cracktheshell@pragyan.org
 
 Harish 
 Phone: +91 77086 62314 
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/crack.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Adaventure </itemname>
-          <main>Registration Deadline: $$!!$$21st February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
-          <one> Test Your 1v1 Coding Skills </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/Codeit/adaventure/introduction/adaventure.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/crack.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Adaventure </itemname>
+            <main>Registration Deadline: $$!!$$21st February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 30000$$%%$$</main>
+            <one> Test Your 1v1 Coding Skills </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/Codeit/adaventure/introduction/adaventure.jpg</pgimg>
+              <content>
 Today, reality cannot be fathomed without the help of the virtual world. And in the helm of the virtual world rule the computer geeks. And for them as is for everyone, awaits a crazy challenge. Inheriting its name from Lady Ada, who is considered the first computer programmer of the world, Adaventure epitomizes fun and coding in the software arena. Versatile? You bet. A huge crowd puller and an outstanding success rate imply that it’s not all easy. Hundreds of talented students are on the race. The game is on! Do get some rest before you need it.
 
 </content>
-          </page>
-          <page>
-            <pagename> Crazy Programming </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Crazy Programming </pagename>
+              <content>
 Introduction 
  
 Crazy Programming is all about how efficient one can code in C. The code which carries the least weight (calculated as given below) wins. This encourages the participants to write crazy codes, hence the name of the event! The participants are given a set of problems for which they’ll have to code in C with as less of the programming language constructs as possible.
@@ -2972,10 +2973,10 @@ Rules and Regulations
 - To view the criterion used to compute the weight of the user submitted program, please visit http://www.pragyan.org/13/home/events/CodeIt/adaventure/.
 
 </content>
-          </page>
-          <page>
-            <pagename> Bot Wars</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Bot Wars</pagename>
+              <content>
 Introduction
  
 - Code an AI for the scenario.
@@ -3043,10 +3044,10 @@ Rules and Regulations
 - The decision of the Adaventure team shall be final and binding.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: adaventure@pragyan.org
 
 S Swapna 
@@ -3056,27 +3057,27 @@ Ram Dayal Vaishnav
 Phone: +91 81448 38618
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150adaventure.jpg</imgurl>
-        </item>
-      </children>
-      <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/codeit.jpg</imgurl>
-    </item>
-    <item>
-      <itemname> Pragyan's Got Talent</itemname>
-      <one> Come, Show, Conquer</one>
-      <page>
-        <pagename> Introduction </pagename>
-        <pgimg>/13/home/events/pragyan_got_talent/Introduction/pgt.jpg</pgimg>
-        <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x150adaventure.jpg</imgurl>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/codeit.jpg</imgurl>
+      </item>
+      <item>
+        <itemname> Pragyan's Got Talent</itemname>
+        <one> Come, Show, Conquer</one>
+        <page>
+          <pagename> Introduction </pagename>
+          <pgimg>/13/home/events/pragyan_got_talent/Introduction/pgt.jpg</pgimg>
+          <content>
 A great talent yearns for an opportunity to rise to the challenge. Infotainment at Pragyan'13 presents an amazing platform to flaunt these creative talents imbibed within each one of us, offering an impressive show to participants and observers alike. A chance, to unleash your artistic talents with a performance that will keep the audience enthralled and leave the judges breathless.
 Amidst this immense competition and prizes worth 40K INR, do you think you’ve got what it takes to rule the stage? Find out, this Pragyan at NIT-Trichy. May the best performers win!
 
 </content>
-      </page>
-      <page>
-        <pagename> Rules and Regulations</pagename>
-        <content>
+        </page>
+        <page>
+          <pagename> Rules and Regulations</pagename>
+          <content>
 - To register, please visit http://www.pragyan.org/13/home/events/pragyan_got_talent/.
  
 - Any creative art Eg. Magic, Juggling, Acrobatics, Shadowgraphy, Sand Animation, freestyle football, Light Painting, Water Art, puppetry, mimicry, Music, Beat Boxing, Stunts and Dance, etc. can be performed.
@@ -3091,10 +3092,10 @@ Amidst this immense competition and prizes worth 40K INR, do you think you’ve 
 - Shortlisting will be done based on the videos and results will be announced before 11th February.
 
 </content>
-      </page>
-      <page>
-        <pagename>Event Format </pagename>
-        <content>
+        </page>
+        <page>
+          <pagename>Event Format </pagename>
+          <content>
 - Teams which are short-listed will perform on Pragyan stage during Pragyan’13 (2nd March, 2013).
  
 - The duration of this performance can be upto 10 minutes maximum.
@@ -3106,10 +3107,10 @@ Amidst this immense competition and prizes worth 40K INR, do you think you’ve 
 - The participants will be allowed to have a rehearsal on the Pragyan stage on the day before the performance.
 
 </content>
-      </page>
-      <page>
-        <pagename>Contacts</pagename>
-        <content>
+        </page>
+        <page>
+          <pagename>Contacts</pagename>
+          <content>
 
 Saqib: +91 98845 68588 
 
@@ -3118,28 +3119,28 @@ Priyesh: +91 98400 45954
 Or mail to Infotainment at infotainment@pragyan.org
 
 </content>
-      </page>
-      <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/PGT.jpg</imgurl>
-    </item>
-    <item>
-      <itemname>Manigma</itemname>
-      <one>Fine Line Between The Leader and The Laggard</one>
-      <children>
-        <item>
-          <itemname>Dalal Street </itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 40000$$%%$$</main>
-          <one> The Virtual Stock Exchange </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/manigma/dalal_street/Introduction/dalal.jpg</pgimg>
-            <content>
+        </page>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/PGT.jpg</imgurl>
+      </item>
+      <item>
+        <itemname>Manigma</itemname>
+        <one>Fine Line Between The Leader and The Laggard</one>
+        <children>
+          <item>
+            <itemname>Dalal Street </itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 40000$$%%$$</main>
+            <one> The Virtual Stock Exchange </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/manigma/dalal_street/Introduction/dalal.jpg</pgimg>
+              <content>
 Dalal Street is a virtual stock trading game. As opposed to conventional stock picking games, Dalal Street actually allows the players to trade among themselves. Trading is facilitated by an electronic exchange running from our servers. The player accumulating maximum wealth by trading will be crowned the winner.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Each participant is provided with a fixed amount of virtual money initially for trading.
  
 - At the start of the game, shares of few Indian companies will be offered for sale at previous day's BSE closing price. More shares may come into market later to encourage new participants and to add liquidity to the market. 
@@ -3149,19 +3150,19 @@ Dalal Street is a virtual stock trading game. As opposed to conventional stock p
 - Players should watch the markets carefully to decide their strategy. Apart from watching the direction of prices in our virtual exchange. they should keep in touch with real world happenings too, to have the first mover advantage. A bundle containing various RSS feeds providing the latest market data, will be provided to the users. They can use their favourite RSS reader to remain in touch with the market directions. Besides this, we will provide the current price of the stocks in BSE too. Users can use this as an indicator of the stock's health. 
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Dalal Street is strictly only for college students and an individual event.
  
 - Any market manipulation technique is to be avoided, and might result in disqualification of the participant.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: dalalstreet@pragyan.org
 
 V Shriram
@@ -3171,17 +3172,17 @@ Hari Venugopalan
 Phone: +91 81440 64012
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/210x200dalal.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> The Ultimate Manager</itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 16000$$%%$$</main>
-          <one> Test Your Management Skills </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/manigma/the_ultimate_manager/Introduction/ulti-manager.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/210x200dalal.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> The Ultimate Manager</itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 16000$$%%$$</main>
+            <one> Test Your Management Skills </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/manigma/the_ultimate_manager/Introduction/ulti-manager.jpg</pgimg>
+              <content>
 Enter the winding and twisting world of business- if you have the audacity to look into intricate details, if new ideas seem to amaze you, if you think you are a genius and ready to face challenges, if you enjoy finding the lost clues after assessing the intricate facts and analogies and through the relevant curves and graphs approach solutions, then come unlock the Sherlock in you at “The Ultimate Manager”.
 
 Here is a chance to showcase your managerial prowess where a holistic testing of various aspects of management will be done. He who comes out unscathed is he who succeeds as making money requires not just hard work, but sometimes common sense. A slight anticipation and a little wit serve better. Unleash your imagination and talents at a platform where there is a lot to learn and earn.
@@ -3189,10 +3190,10 @@ Here is a chance to showcase your managerial prowess where a holistic testing of
 The event will give the participants a feel of various situations a manager could face in the day to day business environment, consisting of stress and fun filled situations. 
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 Bell the Dozen- The Online Gateway!
  
 - From 17th Feb to 28th Feb, everyday one question will be uploaded in the facebook page of The Ultimate Manager after 10 pm. The individual answering correctly the maximum no. of times within this period will be eligible to play directly the second round i.e. Teamspiel. The first correct answer will be taken as the winner.
@@ -3233,10 +3234,10 @@ Third Round: Krigszon- The Final Destination
 - Part 2: An object will be given and the participants will have to prepare a marketing strategy and promotion for it. 
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - It’s an individual event. Any number of entries from a college are allowed.
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in The Ultimate Manager.
@@ -3250,10 +3251,10 @@ Third Round: Krigszon- The Final Destination
 - Judge’s decision will be final and binding.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: ultimatemanager@pragyan.org
 
 Anshuman Dutta
@@ -3266,24 +3267,24 @@ Shashank
 Phone: +91 97914 04561
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/210x260ultimanager.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Pragyan Premier League </itemname>
-          <main>Registration Deadline: $$!!$$15th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 15000$$%%$$</main>
-          <one> Virtual Cricket Management Game </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/manigma/pragyan_premier_league/Introduction/ppl1.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/210x260ultimanager.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Pragyan Premier League </itemname>
+            <main>Registration Deadline: $$!!$$15th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 15000$$%%$$</main>
+            <one> Virtual Cricket Management Game </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/manigma/pragyan_premier_league/Introduction/ppl1.jpg</pgimg>
+              <content>
 Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - Round 1 of Pragyan Premier League is an online round that takes place before Pragyan. A portal is opened online for a few days, where participants have to select and finalize their squad of players.
  
 - Once the window for buying players closes, the participant is made to select his team for the upcoming match, send players for training, manage his finances etc. The performance of the participant's team is determined by a Virtual Cricket league running in the backend, the training received by the players, their fatigue level etc.
@@ -3297,19 +3298,19 @@ Pragyan Premier League is a Cricket Management Event, in which participants have
 - The finalists of Round 2 and the winner of the third-place match, are declared the winners of Pragyan Premier League.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Pragyan Premier League is open for all, and is a team event, having two managers per team.
  
 - The result declared by the Event Managers will be considered final.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: premierleague@pragyan.org
 
 Hari Venugopalan 
@@ -3319,32 +3320,32 @@ V Shriram
 Phone: +91 94455 58781
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x470PPL.jpg</imgurl>
-        </item>
-      </children>
-      <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/manigma.jpg</imgurl>
-    </item>
-    <item>
-      <itemname>Chill Pill</itemname>
-      <one>Beating The Blues</one>
-      <children>
-        <item>
-          <itemname>Pragyan Cube Open </itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 70000$$%%$$</main>
-          <one> Rubik's Cube Solving Contest </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/chill_pill/pragyan_cube_open/Introduction/cube-open.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/150x470PPL.jpg</imgurl>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/manigma.jpg</imgurl>
+      </item>
+      <item>
+        <itemname>Chill Pill</itemname>
+        <one>Beating The Blues</one>
+        <children>
+          <item>
+            <itemname>Pragyan Cube Open </itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 70000$$%%$$</main>
+            <one> Rubik's Cube Solving Contest </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/chill_pill/pragyan_cube_open/Introduction/cube-open.jpg</pgimg>
+              <content>
 Here’s the challenge for your nimble fingers! Flaunt your mastery of the world’s best 3D-puzzle, the cube!
 A WCA registered event and open to cubers of all ages, Pragyan 2013 brings to you Pragyan Cube Open.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 The following cube events will be conducted:
  
 - 2x2x2
@@ -3370,10 +3371,10 @@ The following cube events will be conducted:
 - Megaminx
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Events will be conducted as per WCA rules.
  
 - Participants must bring their own cubes.
@@ -3383,10 +3384,10 @@ The following cube events will be conducted:
 - All students with a valid identity card from their respective educational institution are eligible to participate in Pragyan Cube Open.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: cubeopen@pragyan.org
 
 Mathan
@@ -3399,24 +3400,24 @@ Jaya Ram
 Phone: +91 90429 29871
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x310cubeopen.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Crime Busters </itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 15000$$%%$$</main>
-          <one> The Pragyan Murder Mystery </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/chill_pill/crime_busters/Introduction/crime-busters.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x310cubeopen.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Crime Busters </itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 15000$$%%$$</main>
+            <one> The Pragyan Murder Mystery </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/chill_pill/crime_busters/Introduction/crime-busters.jpg</pgimg>
+              <content>
 The radical distinction of Crime Busters from other events is that it is purely non technical. It is for the fast paced minds but purely logical and brainy, sure to say brilliant. An event where NITTians as well as our honored guests can come to blow off steam, away from all the robotics and brain cracking coding. With immense lateral thinking involved, Crime Busters is uncomplicated but not to be reckoned easy.
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - On-Spot Event
  
 - The preliminary round consists of logical questions, brain teasers and GK questions. From this, a maximum of 7 teams will be shortlisted for the finals.
@@ -3428,10 +3429,10 @@ The radical distinction of Crime Busters from other events is that it is purely 
 - Finally, a mystery case file will be given and teams should solve it in the given time frame.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - A team can consist of a maximum of 3 participants.
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in Crime Busters.
@@ -3449,10 +3450,10 @@ The radical distinction of Crime Busters from other events is that it is purely 
 - Any rules are viable to change and will be announced before the commencement of the event.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: crimebusters@pragyan.org
 
 Gokul Suresh
@@ -3468,24 +3469,24 @@ R Ajay Kumar
 Phone: +91 96772 13375
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x140crime.jpg</imgurl>
-        </item>
-        <item>
-          <itemname> Zombie Escapades </itemname>
-          <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 18000$$%%$$</main>
-          <one> The Technical Scavenger Hunt </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/chill_pill/zombie_escapades/Introduction/zombie-escapades.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x140crime.jpg</imgurl>
+          </item>
+          <item>
+            <itemname> Zombie Escapades </itemname>
+            <main>Registration Deadline: $$!!$$25th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 18000$$%%$$</main>
+            <one> The Technical Scavenger Hunt </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/chill_pill/zombie_escapades/Introduction/zombie-escapades.jpg</pgimg>
+              <content>
 Amid intriguing challenges for our brain, here’s an event to challenge your brawn too! Zombie Escapades is the treasure hunt of Pragyan, which evaluates your reasoning skills and judges your ability to put scientific principles into action. You need to decipher the codes and clues and find your way to the treasure!
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - On-Spot Event.
  
 - Prelims will consist of a few puzzles(Scientific application, logic, math, word, apti) and will be for 1 hour.
@@ -3499,10 +3500,10 @@ Amid intriguing challenges for our brain, here’s an event to challenge your br
 - Finals consists of 1 task, where the 6 teams are each provided a variety of raw materials to choose from to build a working model of some kind within 1 hour.
  
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - Each team consists of no less than two and no more than three members.
  
 - All students with a valid identity card from their respective educational institution are eligible to participate in Zombie Escapades.
@@ -3518,10 +3519,10 @@ Amid intriguing challenges for our brain, here’s an event to challenge your br
 - Other details will be provided at the beginning of the event.
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: zombieescapades@pragyan.org
 
 Diksha Gohlyan 
@@ -3531,17 +3532,17 @@ Sneha Priya
 Phone: +91 72006 15083
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x160zombie.jpg</imgurl>
-        </item>
-        <item>
-          <itemname>Take One </itemname>
-          <main>Registration Deadline: $$!!$$26th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 26000$$%%$$</main>
-          <one> Short Movie Making </one>
-          <page>
-            <pagename> Introduction </pagename>
-            <pgimg>/13/home/events/chill_pill/take_one/Introduction/takeone.jpg</pgimg>
-            <content>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/200x160zombie.jpg</imgurl>
+          </item>
+          <item>
+            <itemname>Take One </itemname>
+            <main>Registration Deadline: $$!!$$26th February, 2013$$%%$$$$##$$Prize money worth $$!!$$INR 26000$$%%$$</main>
+            <one> Short Movie Making </one>
+            <page>
+              <pagename> Introduction </pagename>
+              <pgimg>/13/home/events/chill_pill/take_one/Introduction/takeone.jpg</pgimg>
+              <content>
 Ever wanted to make something that captures everyone’s imagination, that which shocks or entertains, that which makes people laugh and that which makes them cry, that which motivates people or shatters them with brute reality or just distracts all from their problems and voice your opinions and ideas?
 Do you fashion yourself to be the next Ratnam, Ray or Tarantino? Do you love to put on a different personality and live another life?
 Pragyan 13 brings you Take One, the short film making contest.
@@ -3549,10 +3550,10 @@ The contestants are given an option to choose from any one or more of the given 
 The main judging criteria are creativity in implementation, direction, editing, presentation etc. Also provide a short write up on your implementation of the topic as well as a short description of your video.  
 
 </content>
-          </page>
-          <page>
-            <pagename> Event Format </pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
 - The Participants are required to produce their movie according to the rules and regulations stated.
  
 - The Selected entries will be intimated through phone and website, and will be screened during pragyan in the presence of a judge.
@@ -3566,10 +3567,10 @@ The main judging criteria are creativity in implementation, direction, editing, 
 - Plagiarized or heavily inspired content will not be entertained and will lead to disqualification.
 
 </content>
-          </page>
-          <page>
-            <pagename> Rules and Regulations</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename> Rules and Regulations</pagename>
+              <content>
 - The entries have to be original. Plagiarized content will lead to disqualification.
  
 - No restriction on genre
@@ -3597,10 +3598,10 @@ The main judging criteria are creativity in implementation, direction, editing, 
 - Participants should encode the video in standard formats.(avi or mpeg)
 
 </content>
-          </page>
-          <page>
-            <pagename>Contacts</pagename>
-            <content>
+            </page>
+            <page>
+              <pagename>Contacts</pagename>
+              <content>
 Email: takeone@pragyan.org
 
 Kandharaj
@@ -3610,11 +3611,1208 @@ Nishanth
 Phone: +91 99941 30998 
 
 </content>
-          </page>
-          <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/410x150takeone.jpg</imgurl>
-        </item>
-      </children>
-      <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/chillpill.jpg</imgurl>
-    </item>
-  </children>
-</item>
+            </page>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/410x150takeone.jpg</imgurl>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/chillpill.jpg</imgurl>
+      </item>
+    </children>
+  </item>
+  <item>
+    <itemname>Highlights</itemname>
+    <children>
+      <item>
+        <itemname>Guest Lectures </itemname>
+        <one> Lectures, a class apart! </one>
+        <children>
+          <item>
+            <itemname>Gerard Rego</itemname>
+            <one>Gerard Rego
+Director, Ecosystem and Developer Experience, Nokia India</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/Gerard-Rego.jpg</imgurl>
+            <page>
+              <pagename> Gerard Rego </pagename>
+              <content>
+Gerard Rego has made himself known as an entrepreneur and investor in the tech industry, through an extensive career that spans more than two decades. Note that "tech industry" here is used in a very panoramic sense. Mr Rego's experience reaches across supply chain management, manufacturing, renewables, IT, internet, CAE and Aerospace and Defense industries. He is a fellow of Wharton Business School and is known especially for his work in business modeling and product innovation. He is currently director of Ecosystem and Developer Experience(EDX), Nokia India, which makes him largely responsible for Nokia's app development platform and the Windows Phone Marketplace. He is also cofounder of Vayugrid, a biodiesel company.
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Thanu Padmanabhan</itemname>
+            <one>Thanu Padmanabhan
+Theoretical Physics and Cosmology</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/Thanu-Padmanabhan.jpg</imgurl>
+            <page>
+              <pagename> Thanu Padmanabhan </pagename>
+              <content>
+Thanu Padmanabhan is an Indian theoretical physicist who has distinguished himself with fundamental contributions to several areas of astrophysics.He received his Ph.D. from the Tata Institute of Fundamental Research, and went on to do his postdoctoral research at University of Cambridge, UK. Currently, he is a distinguished Professor at the Inter-University Centre for Astronomy and Astrophysics, Pune. Books and research papers published by him have made a significant impact in his field. Dr. Padmanabhan has received numerous national and international awards for his work, including the Padma Shri in 2007.
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Steven Furber</itemname>
+            <one>Steven Furber
+ARM and SpiNNaker</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/Steve-Furber.jpg</imgurl>
+            <page>
+              <pagename> Steve Furber </pagename>
+              <content>
+Steve Furber is the ICL Professor of Computer Science at the University of Manchester. He was one of the pioneering designers of the BBC Micro Computer System and the ubiquitous ARM microprocessor architecture in the 80's. One can understand the scale of its popularity today, with customer reports of 2011 suggesting that ARM microprocessors were used in 95% of smartphones and 90% of hard disk drives. More recently, his work has focused on biologically inspired computation. His latest project called SpiNNaker, is an attempt to build a new kind  of computer that directly mimics the workings of the human brain using a massive parallel processing system. The finished Spinnaker will model 1% of the human brain's capability, which is quite an achievement considering the capacity of the brain. His research interests also include asynchronous logic design and power-efficient computing.
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Tessy Thomas</itemname>
+            <one>Tessy Thomas
+Project Director, Agni V</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/Tessy-Thomas.jpg</imgurl>
+            <page>
+              <pagename> Tessy Thomas </pagename>
+              <content>
+Tessy Thomas is the Project Director for Agni-V missile, which was successfully tested on 19 April 2012 by the DRDO. She is the first woman scientist to head a missile project in India. She has been lauded by Dr. Manmohan Singh an example of a "woman making her mark in a traditionally male bastion and decisively breaking the glass ceiling". She was conferred the Lal Bahadur Shastri National Award by the President in October 2012.
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Rohan Dixit</itemname>
+            <one>Rohan Dixit
+Neuroimaging of Meditation, BrainBot</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/Rohan-Dixit.jpg</imgurl>
+            <page>
+              <pagename> Rohan Dixit </pagename>
+              <content>
+Rohan Dixit is a cognitive neuroscience researcher, who founded the neurotechnology startup 'Brainbot'. Through his research at the Stanford Medical Center, he explored the “resting state” of the human mind using functional magnetic resonance imaging. Rohan later continued his research on the human brain by neuroimaging meditation at Harvard-MIT-MGH Martinos Center. Using the mind waves recorded, he created a dynamic, brain-aware application, which would help users to turn the internal process of mindfulness into objective measure.
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>David Christian</itemname>
+            <one>David Christian
+Big History</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/David-Christian.jpg</imgurl>
+            <page>
+              <pagename> David Christian </pagename>
+              <content>
+David Christian is one of the world's most renowned historians, widely known for creating an interdisciplinary approach known as Big History. It is an academic discipline which examines history scientifically from the Big Bang to the present. Originally an expert on Russia and the Soviet Union, Christian has been determined to try to teach history on the largest possible scale. He is now a professor at San Diego State University. He has authored many popular books including 'Maps of Time', which fetched him the World History Association Book Prize in 2005.
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Anil Kakodkar</itemname>
+            <one>Anil Kakodkar
+Nuclear Man</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/Anil-Kakodkar.jpg</imgurl>
+            <page>
+              <pagename> Anil Kakodkar </pagename>
+              <content>
+Anil Kakodkar is an eminent Indian nuclear scientist. He played a major role in India's Peaceful Nuclear Tests conducted in the 1970s, which helped India assert its sovereignty. Dr. Kakodkar has been instrumental in the development of several indigenous nuclear reactors. His exceptional leadership during his tenure as the chairperson of the Atomic Energy Commission of India led to a significant boost to India's nuclear power programme. In recognition of his work, he was awarded the Padma Vibushan in 2009.
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Richard Noble</itemname>
+            <one>Richard Noble
+Fastest Man in the World</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/Richard-Noble.jpg</imgurl>
+            <page>
+              <pagename> Richard Noble </pagename>
+              <content>
+Coming up Soon!!!
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Chris Phillips</itemname>
+            <one>Chris Phillips
+The Invisible Man</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/guest_lecture/newv13/Chris-Phillips.jpg</imgurl>
+            <page>
+              <pagename> Chris Phillips </pagename>
+              <content>
+Coming up Soon!!!
+
+</content>
+            </page>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/gl.jpg</imgurl>
+      </item>
+      <item>
+        <itemname>Pengufest</itemname>
+        <main>Awesome Google goodies await every participant</main>
+        <one>The FOSSinating penguin</one>
+        <page>
+          <pagename> Introduction </pagename>
+          <pgimg>http://www.pragyan.org/13/home/pengufest/introduction/pengufest.jpg</pgimg>
+          <content>	
+"Soft power is like water, A single water drop is powerless, but numerous water drops are torrential. Open source is such a soft power".                                            --Taoism of Open Source; Chen Nan Yang
+
+Ever felt that the best things in life come free? Does a bespoke virtual world amaze you and toying with it irresistible? Have no clue on what’s this all about? Come aboard, Free and Open Source Software or FOSS takes a new dimension, this year at Pragyan 13’.
+
+Beckoning all self-proclaimed geeks (both wannabe and established) with even a passing interest in FOSS. We present to you Pengufest. Pengufest as its name suggests celebrates the Penguin and what it all stands for.
+
+Ever pondered why Android dominates the international scenario by a large margin or how science has revolutionized the world? If the two seem irrelevant, think again. What is free, open and modifiable by all is what makes for a revolution.
+
+And this is not far away. Coming Pragyan be sure to grab your favorite snack and immerse into the world of FOSS, Linux and GNOME. Want an expert opinion? Discussion with peers? Game for a competition? It all ends here and begins anew.
+
+An opportunity to kick start the journey of novices, streamline the path for the established and a chance to divulge the knowledge for the experts. Like all things open source, it is community driven. Here, you are a part of the community.
+
+For newbies or veterans Pengufest promises to be a ride not to be missed. Hop on and discover what you have missed. FOSS is a religion.
+</content>
+        </page>
+        <page>
+          <pagename> Speakers </pagename>
+          <content>
+For details on the speakers at Pengufest, please visit http://www.pragyan.org/13/home/pengufest/.
+
+</content>
+        </page>
+        <page>
+          <pagename> Schedule </pagename>
+          <content>
+The Schedule has not been finalized yet. A couple of talks may be added. The sessions are as follows:
+
+  -  Mr. Hari Shankaran, Co Founder at Interviewstreet,
+
+            Built interviewstreet.com and hackerrank on "Building a company from 0 to Million dollars"
+
+  -  Mr. Krishnan Parthasarathi, Software Engineer Redhat! on "Gluster FS
+
+            GlusterFS is a powerful network/cluster filesystem written in user space which uses FUSE (Filesystem in User Space) to hook itself with VFS layer.          GlusterFS takes a layered approach to the file system, where features are added/removed as per the requirement. Though GlusterFS is a File System, it uses already tried and tested disk file systems like ext3, ext4, xfs, etc. to store the data. It can easily scale up to petabytes of storage which is available to user under a single mount point.
+
+  -  Mr. Muthu Subramanian,  Independent Consultant, Novell on Libre Office
+
+          LibreOffice is the most powerful and viable Free Software office suite, available cross platform. This session would be a treat to would-be libreoffice hackers via a small hacking session. The proposed session would first give an introduction to libreoffice then take a simple task (mostly from the Calc module) and guide the audience through the task. This way the hackers would get a chance to hack libreoffice and also more importantly be able to contribute as individuals and teams.Virtualbox image containing opensuse 11.3 plus source+build of libreoffice would also be available.
+
+</content>
+        </page>
+        <page>
+          <pagename> Contacts </pagename>
+          <content>
+Email: pengufest@pragyan.org
+
+Arvind M
++91 94458 13295
+
+Jeh
++91 95669 39866
+
+</content>
+        </page>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/pengufest.jpg</imgurl>
+      </item>
+      <item>
+        <itemname>Exhibitions and Sangam</itemname>
+        <one>Where vision gets built</one>
+        <children>
+          <item>
+            <itemname> Exhibitions </itemname>
+            <one>Exhibitions</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/exhibitions.jpg</imgurl>
+            <children>
+              <item>
+                <itemname>Vintage Cars</itemname>
+                <one>Experience the Royalty yourself!</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/exhibitions/newv13/vintage.jpg</imgurl>
+                <page>
+                  <pagename> Vintage Vehicles </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/exhibitions/exhibitions/cars_2.jpg</pgimg>
+                  <content>
+A swanky car, carrying art works all over in flashing red, races past its counterpart and comes to a halt with a 90-degree swirl. A peep through the window takes you on a journey of woods. Or so it seems.
+
+The upholsteries, dashboard, steering wheel, gearbox, floor mat and the roof, all reflect the sheen of wooden brown. A closer look will reveal the hand strokes involving laborious work of painting on the plastic fibre that is fixed over the interiors in different shades of brown.
+
+It is not every day that you get to see a gleaming black car manufactured in 40's in all its glory honking past you on the streets. But when you're at Pragyan you can be sure to see such four wheel beauties! The collection starts from classic and vintage eras and drowns into luxury cars and bikes of each decade.
+
+This edition, we are going to take you back to transportation’s early years of serving the masses. Prepare yourself  for a pleasant surprise and look out for cars and bikes that you must have never ridden in this century.
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname>CVRDE</itemname>
+                <one>CVRDE</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/exhibitions/newv13/cvrde.jpg</imgurl>
+                <page>
+                  <pagename> CVRDE </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/exhibitions/exhibitions/drdo_cover.jpg</pgimg>
+                  <content>
+DEFENCE RESEARCH AND DEVELOPMENT ORGANISATION
+   
+Pragyan '13 brings you an exclusive sneak peek into the elite Indian arsenal, with an array of Exhibitions by Defence Research and Development Organization, India. Headquartered in New Delhi, DRDO has a network of 51 laboratories which are deeply engaged in developing technology related to aeronautics, armaments, electronics, combat vehicles, engineering systems, missiles, advanced computing and simulation, special materials, naval systems, information systems and agriculture. The organization is supported by more than 5,000 scientists and about 25,000 other scientific, technical and supporting personnel. Tasked with lengthening and strengthening India’s‘stick’, to be wielded for preserving peace, DRDO has made tremendous progress in the development of missiles, weapons, tanks, light combat aircraft, radars, electronic warfare systems etc.
+
+ 
+CVRDE
+
+This edition of Pragyan promises to offer a glance at the elite Indian arsenal as The Combat Vehicles Research and Development Establishment (CVRDE), Chennai a laboratory of DRDO sets its stall here. The CVRDE is responsible for equipping India’s frontline defences with superior quality combat vehicles since 1965.
+
+Their area of work is to design, develop, manufacture prototypes and performance evaluation of Tracked Combat vehicles and Specialist tracked vehicles. These are mostly armoured vehicles like the likes of the Arjun Tank, Ajeya Tank, Armoured Scouting vehicles, Armoured Ambulances among many other products.
+
+Pragyan 13 invites you to have the privilege of seeing CVRDE with their models and the presentations about their labs, products and facilities are sure to capture the minds and imagination of every patriotic technocrat.
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname>DRDL</itemname>
+                <one>No one understands the Indian Defence Better</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/exhibitions/newv13/drdl.jpg</imgurl>
+                <page>
+                  <pagename> DRDL </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/exhibitions/exhibitions/drdo_cover.jpg</pgimg>
+                  <content>
+DEFENCE RESEARCH AND DEVELOPMENT ORGANISATION
+
+Pragyan '13 brings you an exclusive sneak peek into the elite Indian arsenal, with an array of Exhibitions by Defence Research and Development Organization, India. Headquartered in New Delhi, DRDO has a network of 51 laboratories which are deeply engaged in developing technology related to aeronautics, armaments, electronics, combat vehicles, engineering systems, missiles, advanced computing and simulation, special materials, naval systems, information systems and agriculture. The organization is supported by more than 5,000 scientists and about 25,000 other scientific, technical and supporting personnel. Tasked with lengthening and strengthening India’s‘stick’, to be wielded for preserving peace, DRDO has made tremendous progress in the development of missiles, weapons, tanks, light combat aircraft, radars, electronic warfare systems etc.
+
+
+DRDL
+
+Defence Research and Development Laboratory, Hyderabad is a multi-disciplinary Missile System laboratory of DRDO with thrust on design, development and flight evaluation of various types of Missile Systems for armed forces. Right form conceptualization of the weapon system to production and induction into services, the laboratory has capabilities and the state of art infrastructure in terms of facilities and human resource.
+
+The laboratory is also ISO 9001: 2000 Certified for the high International Standards set by it. Ever since its inception as a Special Weapon Development Team (SWDT) in 1958 it has been pioneer in the missile development and has played a pivotal role in bolstering our defences.
+
+Come this Pragyan and get a sneak peek in the world of the Indian missiles as DRDL presents itself in Pragyan with scaled models and presentations to give a deeper insight in missile technology. Don’t miss to grab this once in a lifetime opportunity to get a peek into the latest technologies that keep the defence of our nation intact!!!
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname>HAM Radio</itemname>
+                <one> Because it's never too kate to learn</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/exhibitions/newv13/ham.jpg</imgurl>
+                <page>
+                  <pagename> HAM Radio </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/exhibitions/exhibitions/ham_radio.jpg</pgimg>
+                  <content>
+Amateur RADIO
+
+Many of our most satisfying avocations today consist of making something by hand which machines can usually make more quickly and cheaply, and sometimes better. A similar initiative has been taken by the Amateur Radio Society of Tiruchirappalli, to provide technical advice and assistance to amateur radio enthusiasts. The society represents the interests of amateur radio operators before the India government and supports a number of educational programs throughout the country.
+
+Pragyan, in association with the society provides you a hands on experience on the amateur radio and a once in a lifetime opportunity to operate the Straight key yourselves. Expensive wireless equipment will be on display and the team of experts would be glad to answer any of your queries regarding HAM Radio Operation. They will setup their wireless radio unit on the campus premise and try to contact other HAM radio stations around the world.
+
+Amateur radio (also called ham radio) is the use of designated radio frequency spectrum for purposes of private recreation, non-commercial exchange of messages, wireless experimentation, self-training, and emergency communication. The term "amateur" is used to specify persons interested in radio technique solely with a personal aim and without direct pecuniary interest, and to differentiate it from commercial broadcasting, public safety (such as police and fire), or professional two-way radio services (such as maritime, aviation, taxis, etc.).
+
+A straight key is the common telegraph key as seen in various movies. It is a general term for any switching device used primarily to send Morse code, a method of transmitting text information as a series of on-off tones, lights, or clicks that can be directly understood by a skilled listener or observer without special equipment. Similar keys are used for all forms of manual telegraphy, such as in electrical telegraph and radio telegraphy. Straight keys have been made in numerous variations for over 150 years and in numerous countries. They are the subject of an avid community of key collectors.
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname>Augmented Reality</itemname>
+                <one> Step into the Unreal World to unlock the Real You!</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/exhibitions/newv13/aug.jpg</imgurl>
+                <page>
+                  <pagename> Augmented Reality </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/exhibitions/exhibitions/aug_3.png</pgimg>
+                  <content>
+
+Video games have been entertaining us for nearly 30 years, ever since Pong as introduced to arcades in the early 1970s. Computer graphics have become much more sophisticated since then, and game graphics are pushing the barriers of photorealism.
+
+Now, researchers and engineers are pulling graphics out of your Television screen or computer display and integrating them into real-world environments. This new technology, called AUGMENTED REALITY, blurs the line between what's real and what's computer-generated by enhancing what we see, hear, feel and smell. Augmented reality is changing the way we view the world or at least the way its users see the world. Picture yourself walking or driving down the street.
+
+GAMOOZ India, a software start-up based in the Millennium city of Gurgaon, India is committed to the amazing world of Augmented Reality. This Pragyan, GAMOOZ India comes with a no. of applications and products ready to leave you awestruck in the midst of the glorifying world of technology. Don’t miss a once in a lifetime opportunity of a hands on experience on the apps you wouldn’t have imagined to be existing.
+
+</content>
+                </page>
+              </item>
+            </children>
+          </item>
+          <item>
+            <itemname>Sangam</itemname>
+            <one>Sangam</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sangam.jpg</imgurl>
+            <page>
+              <pagename>Sangam</pagename>
+              <pgimg>http://www.pragyan.org/13/home/exhibitions/sangam/sangam.jpg</pgimg>
+              <content>
+
+Pragyan is not just a showcase of what the world of technology has to offer us nor is it about intense competitions, mind boggling lectures and enlightening workshops. It also encourages the students to apply their basics that they have learnt and to think out of the box.
+
+Come 2013 and we bring to you an exclusive initiative that not only encourages the top brains of India to churn out fresh ideas and innovations but also enables them to move from conceptualization to implementation. Welcome to SANGAM, a forum for exchange of knowledge between participants, peer students, academicians, technocrats, industrialists and corporates.
+
+For further details, visit Sangam FB
+
+Note: Sangam is only for NIT-T students.
+
+Contacts:
+Sagar Arora                                      Nagarajan Sanjay
++91 95438 96104                                  +91 98409 42896
+
+</content>
+            </page>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/exhi.jpg</imgurl>
+      </item>
+      <item>
+        <itemname> Crossfire</itemname>
+        <one>I argue, therefore I am</one>
+        <page>
+          <pagename>Crossfire</pagename>
+          <pgimg>http://www.pragyan.org/13/home/crossfire/crossfire.jpg</pgimg>
+          <content>
+Six panellists, One stage, Clash of the wits!
+ 
+It's that time of year again when arguments become flaming arrows amidst a battle of ideas. Each
+arrow has a target and it is sure to hit its mark. The archers don’t need much target practice and
+they have got ample ammo in grey matter. Pragyan once again brings to you its mind sparking panel
+discussion - Crossfire, the hotspot for ideas in February…
+ 
+As with the last years, the event promises to bring together eminent public speakers, from various
+walks of life, to the forum of issues. There are issues aplenty around us; from power shortages to
+possibilities of another recession to maybe the apocalypse come 2012. The issues get resolved when
+the ideas begin to flow. Crossfire promises to turn on the light bulb and churn solutions.
+Our previous guests include Prof. Anil Gupta, Dr. P.V. Indiresan, Dr. Sujatha Ramadorai, Mr. Krish
+Ashok, Dr. L.S. Ganesh and Cr. Ramesh Jain.
+
+</content>
+        </page>
+        <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/wishberry.jpg</imgurl>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/crossfire.jpg</imgurl>
+      </item>
+      <item>
+        <itemname>Workshops</itemname>
+        <one>Learning to do, doing to learn</one>
+        <children>
+          <item>
+            <itemname>Tall Structure Design</itemname>
+            <one>Tall Structure Design</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/civil.jpg</imgurl>
+            <page>
+              <pagename> Introduction </pagename>
+              <content>
+Bolstered by technology, architects have blurred the lines between heaven and earth with lofty sky scrapers! You do realise each of those is a marvel in itself. Having accustomed to bleak landscapes,   skylines lined with towering structures leaves most of us flabbergasted! This CAD based Tall Buildings workshop elucidates the fine concepts of building design, industrial practices, FEM analysis and much more! Structured as an interactive package, you also get to discuss the industrial problems at hand with IIT alumni, get career guidance and interview tips!
+
+It gets even better with practical sessions in CAD modelling and live demonstrations of solutions to problems of the past.
+
+Be prepared to rack your brains!!
+
+For registration details and FAQ, please visit http://www.pragyan.org/13/home/workshop/civil/.
+</content>
+            </page>
+            <page>
+              <pagename> Course Details </pagename>
+              <content>
+The workshop has the following modules:
+
+Session 1:
+
+Introduction to tall building systems and cover the core concepts involved in "design of tall buildings". Various case studies on present day existing tall buildings are discussed.
+
+Session 2:
+
+It will be a practical session where each participant will design their own CAD model of a tall building and do its analysis.
+
+The following topics will be covered in this workshop:
+
+    - Introduction to tall building systems
+
+    - Theory of load resisting systems
+
+    - Industrial approach projects
+
+    - Site office coordination case studies
+
+    - Modeling. Analysis and Design issues arising during practical sessions
+
+    - Live Demonstration and practical examples
+</content>
+            </page>
+            <page>
+              <pagename> Workshop Details </pagename>
+              <content>
+Duration: 1 day (~8 hours)
+
+Date: 1st, 2nd and 3rd March, 2013
+
+Organisers: Civil Simplified
+
+Cost: Rs. 900/- per participant
+
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Sugirtha
++91 88706 11839
+
+Ajinkya Khedk
++91 94860 64813
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Automotive Systems and Advancements</itemname>
+            <one>Automotive Systems and Advancement</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/auto.jpg </imgurl>
+            <page>
+              <pagename> Introduction </pagename>
+              <content>
+Any mechanical engineer's true passion would be automobiles. Who wouldn't like to know the impetus behind a 700HP Lambhorgini Avantador LP700-4 Toadster zipping past you! Though that's a rarity in India, we have Auto Next, a consortium of renowned personalities, scientists, reaserarchers and prominent industrialists , candid enough to hold a workshop for us on basics of automotive parts with emphasis on upcoming trends in TATA Motors passenger cars and a practical session demonstrating various parts and assemblies. This could be a brilliant head start in realizing your dream in the automobile industry!
+</content>
+            </page>
+            <page>
+              <pagename> Course Details </pagename>
+              <content>
+The workshop comprises of two sessions:
+ 
+Theoretical session:
+ 
+1. Introduction to automobiles
+2. Introduction to TATA passenger cars and competitors
+3. Advanced braking system
+4. Latest technologies and advancements of upcoming and recent Tata Motors passenger cars 
+5. Study of under body parts-location and interconnectivity
+ 
+Practical session:
+ 
+Parts study on following automotive parts:
+ 
+1. Engine assembly
+2. Clutch assembly
+3. Gear assembly
+4. Carburettor system
+</content>
+            </page>
+            <page>
+              <pagename> Workshop Details </pagename>
+              <content>
+Duration	  : 	1 day(~8 hours)
+Day	  :	1st,2nd and 3rd March, 2013
+Organisers	  :	AUTO NEXT
+Cost	  :  	Rs 700/- per participant
+ 
+*The entire workshop will be conducted by "TATA MOTORS AUTHORISED TRAINING CONSULTANT".
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Parikshit
++91 74182 59519
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Android Development</itemname>
+            <one>Android Development</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/android.jpg </imgurl>
+            <page>
+              <pagename> Introduction </pagename>
+              <content>
+All your ubiquitous smartphone apps are no longer a perplexity! Learn the jargon of app developers and pitch in to don the creative world of android apps. Pragyan'13 presents you Android App Development workshop for both beginners and pros. You know, more than a hobby it's a great business for the ever burgeoning app market! 
+</content>
+            </page>
+            <page>
+              <pagename> Course Details </pagename>
+              <content>
+Android Basic
+ 
+•         Introduction to Open Source
+•         Introduction to Android technology
+•         Structure of Android applications
+•         Understanding Manifest
+•         Working with Activities
+ 
+o Creating Skelton Application
+o Using XML based layouts
+o Using Basic Widgets
+o Working with Containers
+o Using Selection Widgets
+o Using Fancy Widgets and Containers
+o Applying Menus and Fonts
+o Embedding the WebKit browser
+o Showing Pop-up Messages
+o Dealing with Threads
+o Handling Activity Lifecycle events
+ 
+•        Data stores, Network services and APIs
+ 
+o Setting Preferences
+o Accessing the Files
+o Working with Resources
+o Managing Local Databases
+o Communicating with Internet
+ 
+•        Intents
+ 
+o Create Intent Filters
+o Launching Activities
+o Intospection with action
+o Handling Rotation
+ 
+•        Content Provides and services
+o Using a Content Provider
+o Creating a Content Provider
+o Managing Permissions
+o Creating and Using the Services
+o Creating Alerts with Notifications
+•        Telephony and SMS
+•        Audio, Video and using the Camera
+•        Android Hacks
+ 
+ 
+Every Topic will be discussed using a practical Project.
+ 
+Advanced Level
+ 
+Location and Location Manager:
+ 
+1. Using Location Manager
+2. Obtaining the Current Location
+3. Displaying a Location Address
+4. Location Listeners
+5. Using Criteria
+6. Notification Alert for Location
+ 
+Telephony Manager:
+1. GSMCellLocation
+2. GSM Cell ID
+3. Obtaining Device ID (IMEI,Android Device ID)
+4. Obtaining Software Version
+5. Obtaining Line Number
+6. Obtaining Country ISO
+7. Obtaining Operator name
+8. Obtaining Network Operator
+9. Obtaining Network Type
+10. Obtaining Phone Type
+11. Obtaining SIM Country ISO
+12. Obtaining SIM Operator
+13. Obtaining SIM Operator name
+14. Obtaining SIM Serial Number
+15. Obtaining SIM State
+16. Obtaining Voice mail alpha tag
+17. Obtaining voice mail number
+ 
+GPS Enabled Services:
+ 
+1. Enabling GPS
+2. Disabling GPS
+ 
+MapView:
+ 
+1. MapActivity
+2. Creating MapActivity
+3. Adding Overlayitems
+4. List Overlay
+5. ItemizedOverlay
+6. GeoPoint
+7. MapController
+8. Projection
+9. Saving MapView image in SDCard
+10. Finding Distance between two point
+11. Marking Line between two point
+12. Using tap on location
+ 
+GeoCoding and Reverse GeoCoding:
+ 
+1. GeoCoder
+2. List  Address
+3. Longitude and Latitude
+4. Obtaing address from Longitude and Latitude
+5. Obtaining Longitude,Latitude from given address
+ 
+SMS Service in Android:
+ 
+1. SMSManager
+2. Divide Massage
+3. Send Data Message
+4. Send Multipart Text Message
+5. Send Text Message
+ 
+Project:
+ 
+1. Building “I am Fine Application”
+ 
+I am Fine: GPS Tracking application that keeps your family and friends safe by tracking their real-time location using any Android Phone. With the best in GPS technology, this app tracks the exact location of your family members and alerts you when they are in trouble, using the app's innovative check-in feature.
+Track your family using GPS The app allows family members to locate each other on our mobile map. Parents today are busier than ever so you can use our mobile app to track your child whether you're at 
+</content>
+            </page>
+            <page>
+              <pagename> Workshop Details </pagename>
+              <content>
+
+Basic
+ 
+Duration	 :         	 1.5 days (12 hours)
+Dates	 :	 1st and 2nd March, 2013
+Cost	 :	 600 /- per person
+
+Advanced
+ 
+Duration	 :         	 1.5 days (12 hours)
+Dates	 :	 2nd and 3rd March, 2013
+Cost	 :	 600 /- per person
+
+ 
+Basic + Advanced
+ 
+Duration	 :         	 3 days (24 hours)
+Dates	 :	 1st, 2nd and 3rd March, 2013
+Cost	 :           	 1100 /- per person
+ 
+ 
+Organisers	 :	RoboTech Labs
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Navneet
++91 77084 06958 
+Pratyush
++91 90423 42874
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Underwater robotics</itemname>
+            <one>Underwater robotics</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/underwater.jpg</imgurl>
+            <page>
+              <pagename> Introduction </pagename>
+              <content>
+Not long ago Steven Speilberg plummeted to the depths of the pacific to experience firsthand the wonders of the ocean floor. What if you could stay within the safe confines of your cubicle and yet accomplish such an incredible feat! Come Pragyan get to see robotic enthusiasts manoeuvre their dextrous bots underwater. A robot is only as intelligent as its maker, so grab the opportunity to rub shoulders with the elite community of robotic engineers and learn the amazing funda behind these brilliant technologies. And you don’t just stop with that, you get hands on experience and get to build your own robot!
+</content>
+            </page>
+            <page>
+              <pagename> Course Details </pagename>
+              <content>
+In a span of two days the participants will learn,
+ 
+1.    Underwater Robotics - Basics and why is it different?
+ 
+2.    Manoeuvring of Underwater/Surface water vehicles
+ 
+3.    Understanding the underwater Sensing System
+ 
+4.    Fabrication of a Remotely Operated Vehicle (ROV) using the kit provided
+ 
+5.    Application of sensors to develop different kind of abilities for vehicles
+ 
+6.    Modelling of System
+ 
+7.    Control and Navigation
+ 
+8.    The Development on the kit and the testing in the tank
+ 
+Details on Hands On session :
+ 
+1.    Survey Mission: The ROV will be sent on mission to see the manoeuvrability of vehicle.
+ 
+2.    Depth Control of Vehicle. Understanding the controller, sensor feedback, and system itself to develop depth controller.
+ 
+3.    Remotely operated vehicle (ROV) - open loop control.
+ 
+Workshop will contain a Take-away kit with the following contents,
+ 
+                1.    A unique hydrodynamic robot chassis.
+ 
+                2.    Actuators: It will be a thruster made from DC motor.
+ 
+                3.    Controller: a microcontroller kit with thruster drivers, DC-DC converter.
+ 
+                4.    Documentation of workshop.
+ 
+                5.    Codes related to the workshop.
+ 
+Note:You will be provided a very sensitive depth sensor to enable use with meter of depth. But this sensor would not be a take-away.
+</content>
+            </page>
+            <page>
+              <pagename> Workshop Details </pagename>
+              <content>
+Duration     : 2 days (8 hours each day)
+Dates          : 1st and 2nd March,2013 and 
+                    2nd and 3rd March, 2013
+Organizers  : Robotech Labs
+Cost           : 5000/- per team
+A team may contain 1-4 members.
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Mandakini
++91 91769 22473
+
+Shubham
++91 98432 59583
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Six Sigma</itemname>
+            <one>Six Sigma</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sixsigma.jpg</imgurl>
+            <page>
+              <pagename> Introduction </pagename>
+              <content>
+Good management is the art of making problems so interesting and their solutions so constructive that everyone wants to get to work and deal with them!
+ 
+It takes years to become a successful manager. But, let’s not misconstrue years to adding time to your life but rather what you can learn over a short span; as a word from an expert is worth tens of years of experience. Here at Pragyan’13 we usher you through a fast tracked route to become a manager with Six Sigma management workshop! This is sure to impregnate within you the finest concepts of management, hone your leadership skills and change your attitude altogether!
+ 
+Best of all, you can sport a Yellow Belt, one of the premier certifications to demonstrate your managerial prowess!
+ 
+Join the new league of managers!!
+</content>
+            </page>
+            <page>
+              <pagename> Course Details </pagename>
+              <content>
+The following is what, will be delivered by Master Black Belt Six Sigma trainers,
+
+• Exposure to Industry Six Sigma Practices
+ 
+• Team Formations
+ 
+• Learn from Industry Expert who handled various Six sigma assignments in OEM’s
+ 
+• Project Handling
+ 
+• Decision Making in Taking Six sigma Tools
+ 
+• Developing Debriefing Skills
+ 
+• Performance Assessments
+ 
+• Live Working Mechanisms
+
+
+The participants will be provided with a “Yellow Belt” certificate approved by Master Black Belt Six Sigma trainers. The trainers are members of honorary associations like the American Society for Quality. These trainers have gained a tremendous amount of experience from working with some of the leading industries in the world: Alstom, LandT, Schneider Electric, KEC and Honeywell to name a few.
+</content>
+            </page>
+            <page>
+              <pagename> Workshop Details </pagename>
+              <content>
+Duration         :    2 days (~ 8 hours per day)
+
+Date                :    2nd and 3rd March, 2013
+
+Organisers    :    Experts Hub Training and Consultancy 
+
+Cost                :    Rs.1200/- per Participant
+ 
+The participants will be provided with a “Yellow Belt” certificate approved by Master Black Belt Six Sigma trainers.
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Anand
++91 89032 24946 
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Sixth Sense Robotics</itemname>
+            <one>Sixth Sense Robotics</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/sixsense.jpg</imgurl>
+            <page>
+              <pagename> Introduction </pagename>
+              <content>
+Of all creatures man stands unexampled for his archetypal sixth sense! It's so astute that it replicates itself with technology leading to modern day robots with Artificial Intelligence. With the current pace of advancements, the uber-cool technology of the Terminator, Minority Report or Mr. Tony Stark are not far from reality! You could be at the cusp of this technological leap with our "Sixth Sense Botz" workshop! Join us to learn the interesting techniques of man machine interface, gesture control, image processing, colour recognition and many more.
+</content>
+            </page>
+            <page>
+              <pagename> Course Details </pagename>
+              <content>
+In the span of two days the participant will learn,
+ 
+1.       Colour recognition application
+2.       Ball following robot
+3.       Gesture controlled robot
+4.       Gesture controlled windows media player
+5.       Gesture controlled mouse pointer
+6.       Taking images through gestures
+7.       Zoom in-out of pictures
+ 
+The course content that will be followed in this workshop will be,
+ 
+1.       Introduction to Arduino
+2.       Introduction to Sixth Sense bots
+3.       Image processing
+·         Introduction
+·         Image acquisition devices/sensors
+·         Tools used for image processing
+4.       Hands On
+·         Getting stated with MATLAB
+·         Image acquisition in MATLAB
+·         Image processing
+·         Video acquisition
+·         Sending serial and parallel data using MATLAB on Arduino
+·         Implementing image processing on kit and robot
+ 
+Workshop will contain a Take-away kit with following contents,
+ 
+1.     Arduino circuit board
+2.     USB based webcam(TechCOM brand)
+3.     Robot chassis
+4.     Wheels
+5.     Motors
+6.     Castor wheel
+7.     Battery(9V), Battery snaps
+8.     USB cable for programming
+9.     Connecting wires
+10.   Screws, Screw driver
+11.   Wire cutter/Plier
+</content>
+            </page>
+            <page>
+              <pagename> Workshop Details </pagename>
+              <content>
+Duration	  : 	2 days(~8 hours per day)
+Day	  :	1st and 2nd March, 2013 and
+2nd and 3rd March, 2013
+Organisers	  :	ARK Technosolutions
+Cost	  :  	Rs 4800/- per team
+A team may contain maximum of 4 members.
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Arjun
++91 98845 38405
+
+Divya
++91 90032 41862
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>The Viral Media Workshop</itemname>
+            <one>The Viral Media Workshop</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/tvf.jpg</imgurl>
+            <page>
+              <pagename> Introduction </pagename>
+              <content>
+In today’s world, as data sharing and thought partaking flourishes through YouTube, Twitter and Facebook, fame is imperative. Keeping this concept in mind, The Viral Fever Media Labs, the makers of the hilarious parodies, ‘Rowdies’ and ‘Gaana Wala song’ with 2 million views on Youtube, offer to us, a Workshop explaining the art of making a viral video and the dynamics of its popularity. The Viral Fever is India’s first online TV for Youth, headed by Arunabh Kumar, the Assistant Director of ‘Om Shanthi Om’, an IIT-KGP graduate, who decided to join the entertainment industry, instead of mundane coding on a daily basis. Don’t miss out, as the team guides and entertains you throughout the workshop!
+</content>
+            </page>
+            <page>
+              <pagename> Course Details </pagename>
+              <content>
+Session 1 : Concept Development, Direction, Editing
+
+Break        : Practice Video-Making
+
+Session 2 : Viral Online Publicity
+</content>
+            </page>
+            <page>
+              <pagename> Workshop Details </pagename>
+              <content>
+Duration	  : 	Half a day(~4 hours) Two Sessions
+Day	  :	2nd March, 2013
+Organisers	  :	The Viral Fever Media Labs
+Cost	  :  	Rs 500/- per head
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Saqib
++91 94896 82283
+Priyesh
++91 98400 45954
+
+Or mail to
+infotainment@pragyan.org
+</content>
+            </page>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/workshops.jpg</imgurl>
+      </item>
+      <item>
+        <itemname>Pragyan Social Responsibility </itemname>
+        <one>Be the change you wish to see</one>
+        <children>
+          <item>
+            <itemname>Disha</itemname>
+            <one>Disha</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/disha.jpg</imgurl>
+            <page>
+              <pagename>Disha</pagename>
+              <pgimg>http://www.pragyan.org/13/home/psr/disha/disha.jpg</pgimg>
+              <content>
+Disha - A career awareness Programme for Engineering Aspirants
+
+Disha is a student awareness programme about the engineering branches and opportunities associated with it, for +1 and +2 students. The whole idea came down with the lack of clarity present among the students regarding what is associated with the branch they choose. The event was coordinated well with departments and team Pragyan where the representatives came up with a presentation about their department.
+
+Disha was conducted on November 4th, 2012 hosted at BHEL in presence of Mrs.Manjula ranghanathan, Divisional railway manager trichy ,General managers of BHEL, Trichy and our beloved director Dr.S.Sundarrajan.  The event kicked off with an interesting talk about “what engineering really is” by master sugavnesh. Representatives who had excelled in their respective departments came forward and put forth their Ideas. This was followed by a discussion between them and the students regarding the curriculum and the various prospects for the students after School.
+
+Specially prepared Handouts about each department were distributed at the end for future reference. The event achieved wat it set out to aim for.
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Wishberry</itemname>
+            <one>Wishberry</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/wishberry.jpg</imgurl>
+            <page>
+              <pagename>Wishberry</pagename>
+              <content>
+For details about Wishberry, please visit http://www.wishberry.in/Pragyan-15759.
+
+</content>
+            </page>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/psr.jpg</imgurl>
+      </item>
+      <item>
+        <itemname>Outreach</itemname>
+        <one>Ruling without boundaries!</one>
+        <children>
+          <item>
+            <itemname>Srishti</itemname>
+            <one>Mobile Making Workshop</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/mm_workshop.jpg</imgurl>
+            <page>
+              <pagename> About </pagename>
+              <content>
+"Embedded Systems" - an intimidating word to comprehend has rather made our lives a lot easier! Embedded systems has a universal presence nowadays, and has made possible the formation of systems with a functionality that cannot be provided in manually operated systems. Mobile phone is one of the most important applications of embedded systems. Once considered a luxury, mobile phones have now become an indispensable part of our daily routine. They have long since entered our personal and office environment and made an indelible mark in the same too.
+This Mobile Making Workshop is a microcontroller based basic level workshop which takes you through the process involved in making a mobile phone using AVR microcontroller and some discrete modules from the scratch. By attending this workshop you will not only get to know the interesting process involved in making a mobile phone, but also be able to make one on your own. You are assured to hold a FUNCTIONAL MOBILE PHONE (calling and sending SMS) in your hands using which you can even remotely control a robot! Don't be bogged down by technology - when you break it down, even Rome is just brick and mortar!
+</content>
+            </page>
+            <page>
+              <pagename> Details </pagename>
+              <content>
+Workshop Details:
+
+    Date : 15th and 16th December, 2012
+    Time : 9 am to 4:30 pm
+    Venue : Institute of yoga and consciousness,Yoga village,Beach road,Visakhapatnam
+    Organizer : MBS Horizon
+
+Course Details:
+
+    Introduction to Embedded System and Robotics
+    Microcontroller Programming
+    LCD and Keypad Interfacing
+    Communication
+    GSM Modem interfacing
+    Calling and Sending SMS through GSM modem
+    Making of complete mobile using Atmega16, keypad, LCD and GSM modem
+    Controlling Robot with mobile
+
+Kit Details:
+
+AVR/8051 Board, GSM Modem, LCD(122x32), Key Pad, USB to Serial cable, FRC cables, Connecting wires, Battery(12V,2A) / 12V/2A DC Adapter
+
+Team Details:
+
+Each team can consist of maximum 4 members and will receive a kit.
+Fee: Rs 4800/- per team.
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Deepak Krishnan
+ws.pragyan@gmail.com
++91 95667 63697
+
+Lakshmi Sandeep Reddy
+sandeep@pragyan.org
++91 99525 87249
+
+Sashikant Madana
+sashikant@pragyan.org
++91 90427 84902
+
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Pragyan Open Quiz</itemname>
+            <one>Pragyan Open Quiz</one>
+            <imgurl>http://www.pragyan.org/13/cms/templates/common13/img/pragyanopenquiz.jpg</imgurl>
+            <page>
+              <pagename> Introduction </pagename>
+              <content>
+Back for the second edition, the Pragyan Open Quiz is set to be a meaner package on the whole. The quiz will be conducted by Balls by Picasso, the literary society of NIT-T.
+ 
+The quiz is open to one and all with prizes up for grabs for the best school, college and corporate teams.
+ 
+The total prize money is INR 75,000.
+ 
+It is scheduled to be held on the 27th (Sunday) of January 2013 at Student Activity Center, IIT Madras.
+</content>
+            </page>
+            <page>
+              <pagename> Rules and Regulation </pagename>
+              <content>
+• Teams can consist of a maximum of 3 members.
+ 
+• No cheating (copying, discussing, googling).
+ 
+• Starred questions will be used to break ties.
+</content>
+            </page>
+            <page>
+              <pagename> Event Format </pagename>
+              <content>
+Standard quiz with preliminaries followed by a hard-fought quizzing finale.
+ 
+On-spot registrations.
+</content>
+            </page>
+            <page>
+              <pagename> Contacts </pagename>
+              <content>
+Neeraj Sanghvi        
++919566433774
+neeraj@pragyan.org
+
+Aanand Mohapatra 
++919884900234
+aanand.mohapatra@gmail.com
+</content>
+            </page>
+          </item>
+          <item>
+            <itemname>Infotainment</itemname>
+            <one>Learning was never so much fun</one>
+            <children>
+              <item>
+                <itemname> Fireshow </itemname>
+                <one>Informals Fire Show by Thrill Veera</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/infotainment/newv13/fire.jpg</imgurl>
+                <page>
+                  <pagename> Thrill Veera</pagename>
+                  <pgimg>http://www.pragyan.org/13/home/infotainment/veera_fire.JPG</pgimg>
+                  <content>
+     As his name suggests, this artist truly enjoys the thrilling nature of his work, being a connoisseur in the acts of Fire Dancing, combined with Dare Devil type stunts , Ostrich Dance a world record holder for fire breathing. Observe, as both the spirit and the flames of Thrill Veera brighten up darkness in an Infotainment-Informals show after the Pragyan inauguration. 
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname> 3D Projection Mapping </itemname>
+                <one>3D Projection Mapping</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/infotainment/newv13/3d.jpg</imgurl>
+                <page>
+                  <pagename>3D Projection Mapping </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/infotainment/3d_mapping_3.jpg</pgimg>
+                  <content>
+    Infotainment’13 pushes the usage of Technology technology to new levels this year with 3D projection mapping. Join us on 1st March 2013, at the Ceesat ground for a magnificent spectacle as the Lecture Hall Complex gets transformed to everything from a sky rocket to a pinball machine. Be amazed as the windows and columns pop out into space, and as the structure moves to the beat. The glassless 3D effect is sure to give the watchers an incredibly powerful live experience. We give you an evening full of fun and frolic, as Infotainment sets the stage for everyone to be visually amazed!
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname> Comedy Night Out </itemname>
+                <one>TVF Comedy Night Out
+H.R (Humour Resources) at Pragyan</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/infotainment/newv13/comedy.jpg</imgurl>
+                <page>
+                  <pagename>TVF Comedy Night Out </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/infotainment/tvf_logo.jpg</pgimg>
+                  <content>
+TVF Comedy Night Out
+By: Vipul Goyal and Deepak Mishra
+
+Time: March 3rd from 7:00 to 9:00 PM
+Venue: Barn
+
+Catch Vipul Goyal, Head of H.R (Humour Resources) and Deepak Mishra in this Xtreme Humour session! Featured in The Hindu – Business Line for his talks on Facebook and Sachin Tendulkar, Viral Goyal has the distinction of being the only stand-up comic in India who performs in 4 different languages, English, Hindi, Java and C++.
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname> Robo Dance </itemname>
+                <one>Robo Dance by Robo Ganesh</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/infotainment/newv13/robo.jpg</imgurl>
+                <page>
+                  <pagename>Robo Dance </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/infotainment/tvf_logo.jpg</pgimg>
+                  <content>
+The epitome of flexibility, knowing no limits to the human body, Infotainment’13 presents to you, “Robo” Ganesh! With his popping, sliding and gliding steps, ‘The Mask’  dance etc.he is the winner of the widespread show, "Entertainment Ke Liye Kuch Bhi Karega", and also one of the finalists of the popular series “India’s Got Talent”, assuring an enthralling performance to astonish us all towards the end of the Pragyan inaugural function. 
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname> Rowdies Interviews </itemname>
+                <one>The viral fever
+Do You have the Rowdy in You!? </one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/infotainment/newv13/tvf_info.jpg</imgurl>
+                <page>
+                  <pagename>TVF Rowdies Interviews </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/infotainment/rowdies_photo.jpg</pgimg>
+                  <content>
+TVF Rowdies Interviews
+
+By Deepak Mishra and Vipul Goyal
+Time: March 3rd from 11:00 AM to 2:00 PM (On-Spot Registration)
+Venue: Barn Hall
+
+Test Your Interviewing skills at this INTENSE Stress Interview taken by Deepak Mishra who played Raghu in the spoof, ROWDIES made on the hit MTv show Roadies.
+
+Do You have the Rowdy in You!?
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname> Thaalavattam Band </itemname>
+                <one>Thaalavattam Band</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/infotainment/newv13/thava.jpg</imgurl>
+                <page>
+                  <pagename>Thaalavattam </pagename>
+                  <pgimg>http://www.pragyan.org/13/home/infotainment/thaalavattam_2.jpg</pgimg>
+                  <content>
+Thaalavattam is a percussion project that performs and creates drum circles with music instruments made from recycle and up cycled materials. The instruments which are specially designed by Montry Manuel include the likes of his full-fledged pitch perfect drum kit made from paint buckets, didgeridoos made from PVC pipes, shakers from PET bottles and more. Another eminent member of the Thaalavattam, who is often seen meditatively playing his Didgeridoo, is Mehdi Dehbandi. He does not just play the didgeridoo; he crafts them along with his flutes and other such wind instruments. Mehdi hails from Iran and has spent a while in India honing his creativity and giving shape to it through wood, leather, junk and music. 
+
+</content>
+                </page>
+              </item>
+              <item>
+                <itemname> PGT Shows </itemname>
+                <one>The best of Live Stage Entertainment and Animation</one>
+                <imgurl>http://www.pragyan.org/13/cms/templates/infotainment/newv13/pgt_info.jpg</imgurl>
+                <page>
+                  <pagename>PGT Shows </pagename>
+                  <content>
+Pragyan's Got Talent
+ 
+Pragyan’13 presents its first ever platform to flaunt the hidden creativity-imbibed talents within each one of us, offering an impressive show to participants and observers alike. A chance, to unleash all artistic talents that will completely leave everyone totally enthralled.
+ 
+With music, dance, acrobatics, freestyle football, animation, beat boxing, glue art, juggling, magic, mimicry, etc competing on a single platform, and guest appearances by Pradeep Ramesh and the Thaalavattam band, Who do You think would RULE the stage!?
+ 
+Judges Description
+ 
+The panel of judges for Pragyan’s Got Talent includes Montry Manuel of the awe inspiring band Thaalavattam. Thaalavattam is a percussion project that performs and creates drum circles with music instruments made from recycle and up cycled materials. The instruments which are specially designed by Montry Manuel include the likes of his full-fledged pitch perfect drum kit made from paint buckets, didgeridoos made from PVC pipes, shakers from PET bottles and more. Another eminent member of the Thaalavattam, who is often seen meditatively playing his Didgeridoo, is Mehdi Dehbandi. He does not just play the didgeridoo; he crafts them along with his flutes and other such wind instruments. Mehdi hails from Iran and has spent a while in India honing his creativity and giving shape to it through wood, leather, junk and music.
+ 
+Joining these two brilliant performers in the judges’ panel will be another outstanding artist Pradeep Ramesh, from a field which is more of an art than a sport, freelance footballing. He is the current Indian Champion of Freestyle Football and represented India in the World Freestyle Championship, held in Italy in 2012.His eye catchy tricks and stunts will never let you take your eyes off the stage.
+ 
+Joining these legendries will be Vipul Goyal and Deepak Mishra from the well acclaimed The Viral Fever team.
+
+</content>
+                </page>
+              </item>
+            </children>
+          </item>
+        </children>
+        <imgurl>http://www.pragyan.org/13/cms/templates/mainpage/img/mainsite/outreach.jpg</imgurl>
+      </item>
+    </children>
+  </item>
+</pragyan>

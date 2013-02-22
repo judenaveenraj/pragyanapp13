@@ -23,7 +23,7 @@ public class PragyanDataParser {
 		
 		this.activity = activity;
 		try {
-			PragyanXmlParser parser = new PragyanXmlParser(activity.getAssets().open("pragyanv2.xml"));
+			PragyanXmlParser parser = new PragyanXmlParser(activity.getAssets().open("pragyanv4.xml"));
 			parser.parseDocument();
 			while(!parser.isDone());
 			eventTree = parser.getParsedEventTree();
