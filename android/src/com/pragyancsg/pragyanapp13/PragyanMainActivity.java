@@ -55,6 +55,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 	 * The {@link ViewPager} that will host the section contents.
 	 */
 	private ViewPager myViewPager;
+	private TextSwitcher menuNextSwitcher;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -66,11 +67,30 @@ public class PragyanMainActivity extends FragmentActivity implements
 		HelperUtils.setDataProvider(dataProvider);
 
 		menuSwitcher = (TextSwitcher) findViewById(R.id.menuTitle);
+		menuNextSwitcher = (TextSwitcher) findViewById(R.id.menuTitleNext);
 		bgSwitcher = (ImageSwitcher) findViewById(R.id.bg_image_switcher);
 		menuSwitcher.setFactory(this);
+		menuNextSwitcher.setFactory(new ViewFactory() {
+			
+			@Override
+			public View makeView() {
+				TextView tv = new TextView(getApplicationContext());
+				final float scale = getResources().getDisplayMetrics().density;
+				tv.setPadding((int) (15 * scale + 0.5f), (int) (10 * scale + 0.5f), 0,
+						(int) (10 * scale + 0.5f));
+				// tv.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,
+				// LayoutParams.WRAP_CONTENT));
+				tv.setTextColor(getResources().getColor(R.color.Ivory));
+				tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 30);
+				tv.setMaxLines(1);
+				return tv;
+			}
+		});
 		setMenuTitle(dataProvider.getItemUnderWithIndex(rootName, 0)
 				.getEventName(), "next");
-
+		setMenuNextTitle(dataProvider.getItemUnderWithIndex(rootName, 1)
+				.getEventName(), "next");
+		
 		bgSwitcher.setFactory(new ViewFactory() {
 
 			@Override
@@ -100,6 +120,14 @@ public class PragyanMainActivity extends FragmentActivity implements
 					setMenuTitle(
 							dataProvider.getItemUnderWithIndex(rootName, arg0)
 									.getEventName(), "next");
+					try{
+					setMenuNextTitle(
+							dataProvider.getItemUnderWithIndex(rootName, arg0+1)
+									.getEventName(), "next");
+					}catch (IndexOutOfBoundsException e) {
+						setMenuNextTitle(
+								" ", "next");
+					}
 					currentPage = arg0;
 					
 					return;
@@ -108,8 +136,17 @@ public class PragyanMainActivity extends FragmentActivity implements
 					setMenuTitle(
 							dataProvider.getItemUnderWithIndex(rootName, arg0)
 									.getEventName(), "prev");
-					currentPage = arg0;
 					
+					try{
+					setMenuNextTitle(
+							dataProvider.getItemUnderWithIndex(rootName, arg0+1)
+									.getEventName(), "prev");
+					}
+					catch (IndexOutOfBoundsException e) {
+						setMenuNextTitle(
+								" ", "prev");
+					}
+					currentPage = arg0;
 					return;
 				}
 				
@@ -138,27 +175,58 @@ public class PragyanMainActivity extends FragmentActivity implements
 	public Activity getActivity(){
 		return this;
 	}
+	public void setMenuNextTitle(String title, String direction) {
+		if (direction.equalsIgnoreCase("next")) {
+			Log.d("SWITCH", "next");
+			Animation in = AnimationUtils.loadAnimation(
+					getApplicationContext(), android.R.anim.fade_in);
+			menuNextSwitcher.setInAnimation(in);
+			//menuNextSwitcher.setInAnimation(in);
+			Animation out = AnimationUtils.loadAnimation(
+					getApplicationContext(), android.R.anim.fade_out);
+			menuNextSwitcher.setOutAnimation(out);
+			//menuNextSwitcher.setInAnimation(out);
+		} else if (direction.equalsIgnoreCase("prev")) {
+			Log.d("SWITCH", "prev");
+			Animation in = AnimationUtils.loadAnimation(
+					getApplicationContext(),android.R.anim.fade_in);
+			menuNextSwitcher.setInAnimation(in);
+		//	menuNextSwitcher.setInAnimation(in);
+			Animation out = AnimationUtils.loadAnimation(
+					getApplicationContext(), android.R.anim.fade_out);
+			menuNextSwitcher.setOutAnimation(out);
+		//	menuNextSwitcher.setOutAnimation(out);
+		}
+		menuNextSwitcher.setText(title);
+		//menuNextSwitcher.setText(title);
+	}
+
 	public void setMenuTitle(String title, String direction) {
 		if (direction.equalsIgnoreCase("next")) {
 			Log.d("SWITCH", "next");
 			Animation in = AnimationUtils.loadAnimation(
 					getApplicationContext(), R.anim.slide_in_right);
 			menuSwitcher.setInAnimation(in);
+			//menuNextSwitcher.setInAnimation(in);
 			Animation out = AnimationUtils.loadAnimation(
 					getApplicationContext(), R.anim.slide_out_left);
 			menuSwitcher.setOutAnimation(out);
+			//menuNextSwitcher.setInAnimation(out);
 		} else if (direction.equalsIgnoreCase("prev")) {
 			Log.d("SWITCH", "prev");
 			Animation in = AnimationUtils.loadAnimation(
 					getApplicationContext(), android.R.anim.slide_in_left);
 			menuSwitcher.setInAnimation(in);
+		//	menuNextSwitcher.setInAnimation(in);
 			Animation out = AnimationUtils.loadAnimation(
 					getApplicationContext(), android.R.anim.slide_out_right);
 			menuSwitcher.setOutAnimation(out);
+		//	menuNextSwitcher.setOutAnimation(out);
 		}
 		menuSwitcher.setText(title);
+		//menuNextSwitcher.setText(title);
 	}
-
+	
 	/**
 	 * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
 	 * one of the sections/tabs/pages.
