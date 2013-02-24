@@ -37,7 +37,7 @@ public class StaggeredFragment extends Fragment {
 			//Log.d("FIXED");
 			names[i] = item.getEventName();
 			urls[i] = item.getEventImage();
-			Log.d("FIXED",String.valueOf(i)+":::"+names[i]+":::"+urls[i]);
+			//Log.d("FIXED",String.valueOf(i)+":::"+names[i]+":::"+urls[i]);
 		}
 	}
 

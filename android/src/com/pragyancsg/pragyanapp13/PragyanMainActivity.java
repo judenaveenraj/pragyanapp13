@@ -1,43 +1,29 @@
 package com.pragyancsg.pragyanapp13;
 
-import java.io.IOException;
-import java.util.Date;
-import java.util.Random;
-import java.util.Timer;
-
-import xmlHandlers.PragyanEventData;
-import xmlHandlers.PragyanXmlParser;
-import android.R.menu;
 import android.app.Activity;
-import android.content.res.AssetManager;
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.text.format.Time;
 import android.util.Log;
 import android.util.TypedValue;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.view.animation.Animation;
-import android.view.animation.AnimationSet;
 import android.view.animation.AnimationUtils;
-import android.view.animation.Interpolator;
 import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.ViewSwitcher;
 import android.widget.ViewSwitcher.ViewFactory;
 
 public class PragyanMainActivity extends FragmentActivity implements
@@ -56,7 +42,86 @@ public class PragyanMainActivity extends FragmentActivity implements
 	 */
 	private ViewPager myViewPager;
 	private TextSwitcher menuNextSwitcher;
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_pragyan_main, menu);
+		return true;
+	}
+	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// TODO Auto-generated method stub
+			switch(item.getItemId()){
+			case R.id.menu_update:
+				if(HelperUtils.getDataProvider()!=null){
+					if(HelperUtils.isNetworkOnline(this))
+						new UpdateXmlAsyncTask(this).execute();
+					else
+						Toast.makeText(this, "No Network Connection", Toast.LENGTH_SHORT).show();
+				}
+				default:
+					return super.onOptionsItemSelected(item);
+			}
+	}
+	
+	class UpdateXmlAsyncTask extends AsyncTask<Void, String, Void>{
 
+		public Context context;
+		private ProgressDialog progressDialog;
+		private String failed = "";
+		
+		public UpdateXmlAsyncTask(PragyanMainActivity pragyanMainActivity) {
+			context = pragyanMainActivity;
+			progressDialog = new ProgressDialog(context);
+			progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+			progressDialog.setCancelable(false);
+			progressDialog.setIndeterminate(true);
+			
+		}
+		@Override
+		protected void onPreExecute() {
+			// TODO Auto-generated method stub
+			progressDialog.show();
+			super.onPreExecute();
+		}
+		
+		@Override
+		protected void onPostExecute(Void result) {
+			progressDialog.dismiss();
+			if(failed.length() == 0){
+				Toast.makeText(context, "Update Complete! Refreshing...", Toast.LENGTH_SHORT).show();
+				finish();
+				startActivity(getIntent());
+			}
+			else
+				Toast.makeText(context, failed, Toast.LENGTH_SHORT).show();
+			failed="";
+			super.onPostExecute(result);
+		}
+		
+		@Override
+		protected void onProgressUpdate(String... values) {
+			progressDialog.setMessage(values[0]);
+			super.onProgressUpdate(values);
+		}
+		
+		public void displayMessage(String mesg){
+			publishProgress(mesg);
+		}
+		
+		@Override
+		protected Void doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+			HelperUtils.getDataProvider().updateFromRemoteXml("http://delta.nitt.edu/~robo/pragyanv4.xml",this);  //DEBUG:  "http://192.168.1.150/pragyanv4.xml", this);
+			return null;
+		}
+		public void notifyFailure(String string) {
+			failed = string;
+		}
+		
+	}
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

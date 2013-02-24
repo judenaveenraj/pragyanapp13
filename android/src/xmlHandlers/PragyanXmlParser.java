@@ -139,7 +139,7 @@ public class PragyanXmlParser extends DefaultHandler {
 	public void endElement(String uri, String localName, String qName)
 			throws SAXException {
 		////Log.d("PARSE", "Ending element "+qName);
-		Log.d("XML", tempString);
+		//Log.d("XML", tempString);
 		if(qName.equalsIgnoreCase("item")){
 			//tempEvent = new PragyanEventData();
 		}
@@ -165,7 +165,7 @@ public class PragyanXmlParser extends DefaultHandler {
 			tempString = tempString.replace("$$##$$", "\n");
 			tempString = tempString.replace("$$!!$$", " ");
 			tempString = tempString.replace("$$%%$$", " ");
-			Log.d("MAIN",tempString);
+			//Log.d("MAIN",tempString);
 			tempEvent.addPageContent(tempString);
 			startPage=false;
 		}

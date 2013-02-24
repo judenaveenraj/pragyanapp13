@@ -58,7 +58,7 @@ public class EventInfoActivity extends FragmentActivity{
 		rootName = bundle.getString("root");
 		
 		currentEvent = HelperUtils.getDataProvider().getItemWithName(rootName);
-		Log.d("PAGE",String.valueOf(currentEvent.getPagesCount())+"::"+currentEvent.pageTitles.toString()+"::"+currentEvent.pageContents.toString());
+		//Log.d("PAGE",String.valueOf(currentEvent.getPagesCount())+"::"+currentEvent.pageTitles.toString()+"::"+currentEvent.pageContents.toString());
 		
 		LinearLayout layout = (LinearLayout) findViewById(R.id.outerLayout);
 		layout.setBackgroundDrawable(getResources().getDrawable(HelperUtils.getCurrentBg()));

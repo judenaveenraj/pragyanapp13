@@ -76,7 +76,7 @@ public class PragyanEventData {
 	}
 	
 	public void print(){
-		Log.d("CONTENT",getEventName()+":::::"+ getEventImage());
+		//Log.d("CONTENT",getEventName()+":::::"+ getEventImage());
 		for (PragyanEventData event : getEventChildren()){
 			event.print();
 		}
