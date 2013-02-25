@@ -128,7 +128,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 		setContentView(R.layout.pragyan_main);
 
 		HelperUtils.cacheBgs(this);
-		dataProvider = new PragyanDataParser(this);
+		dataProvider = new PragyanDataParser(getApplicationContext());
 		HelperUtils.setDataProvider(dataProvider);
 
 		menuSwitcher = (TextSwitcher) findViewById(R.id.menuTitle);

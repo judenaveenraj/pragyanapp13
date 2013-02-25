@@ -23,6 +23,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 import org.apache.http.HttpConnection;
+import org.xml.sax.SAXException;
 
 import com.pragyancsg.pragyanapp13.PragyanMainActivity.UpdateXmlAsyncTask;
 
@@ -31,6 +32,7 @@ import xmlHandlers.PragyanXmlParser;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -38,34 +40,56 @@ import android.widget.Toast;
 
 public class PragyanDataParser {
 
-	private Activity activity;
+	private Context activity;
 	private ArrayList<PragyanEventData> eventTree = new ArrayList<PragyanEventData>();
 	
 	public static boolean updateDone = false;
 	
-	public PragyanDataParser(Activity activity) {
+	public PragyanDataParser(Context context) {
 		
-		this.activity = activity;
+		this.activity = context.getApplicationContext();
 		try {
 			File cacheDir;
 			if (android.os.Environment.getExternalStorageState().equals(android.os.Environment.MEDIA_MOUNTED))
 	            cacheDir=new File(android.os.Environment.getExternalStorageDirectory(),"eventXml");
 	        else
-	            cacheDir=activity.getApplicationContext().getCacheDir();
+	            cacheDir=context.getApplicationContext().getCacheDir();
 	        if(!cacheDir.exists())
 	            cacheDir.mkdirs();
 			
 	        File f = new File(cacheDir, "events.xml");
 	        PragyanXmlParser parser;
+	        InputStream is;
 	        if ( f.exists()){
 	        	Log.d("MAIN","Using events");
-	        	parser = new PragyanXmlParser(new FileInputStream(f));
+	        	is = new FileInputStream(f);
+	        	parser = new PragyanXmlParser(is);
 	        }
 	        else{
 	        	Log.d("MAIN","Using asset");
-	        	parser = new PragyanXmlParser(activity.getAssets().open("pragyanv4.xml"));
+	        	is=activity.getAssets().open("pragyanv4.xml");
+	        	parser = new PragyanXmlParser(is);
 	        }
-			parser.parseDocument();
+			try {
+				
+				parser.parseDocument();
+			
+			} catch (SAXException e) {
+				// TODO Auto-generated catch block
+				is.close();
+				is = context.getAssets().open("pragyanv4.xml");
+				Log.d("MAIN","falling back to old xml");
+	        	parser = new PragyanXmlParser(is);
+	        	try {
+					parser.parseDocument();
+				} catch (SAXException e1) {
+					is.close();
+					e.printStackTrace();
+				}
+			}
+			
+				
+			
 			while(!parser.isDone());
 			eventTree = parser.getParsedEventTree();
 			parser.printParsedData();

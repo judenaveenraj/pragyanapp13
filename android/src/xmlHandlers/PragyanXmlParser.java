@@ -71,18 +71,20 @@ public class PragyanXmlParser extends DefaultHandler {
 			event.print();
 		}
 	}
-	public void parseDocument(){
+	public void parseDocument() throws SAXException{
+		Log.d("MAIN", "parser starting");
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		try {
 	            SAXParser parser = factory.newSAXParser();
 	            parser.parse(fileToParse, this);
+	            
 	        } catch (ParserConfigurationException e) {
 	            System.out.println("ParserConfig error");
-	        } catch (SAXException e) {
-	            System.out.println("SAXException : xml not well formed");
-	        } catch (IOException e) {
+	        } 
+	         catch (IOException e) {
 	            System.out.println("IO error");
 	        }
+		
 	}
 	
 	@Override
