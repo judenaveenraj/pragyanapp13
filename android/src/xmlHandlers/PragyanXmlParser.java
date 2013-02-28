@@ -4,7 +4,9 @@ import java.io.CharArrayWriter;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Stack;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,6 +19,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import android.net.ParseException;
 import android.util.Log;
 
 public class PragyanXmlParser extends DefaultHandler {
@@ -35,6 +38,7 @@ public class PragyanXmlParser extends DefaultHandler {
 	private boolean done = false;
 	private boolean startPage = false;
 	private boolean startContent = false;
+	private SimpleDateFormat format;
 	
 	
 	
@@ -56,6 +60,8 @@ public class PragyanXmlParser extends DefaultHandler {
 	public PragyanXmlParser(InputStream file) {
 		fileToParse = file;
 		charWriter = new CharArrayWriter();
+		format = new SimpleDateFormat("dd-MM-yyyy HH:mm");  
+		
 	}	
 	
 	public boolean isDone(){
@@ -157,6 +163,29 @@ public class PragyanXmlParser extends DefaultHandler {
 		
 		if(qName.equalsIgnoreCase("imgurl")){
 			tempEvent.setEventImage(tempString);
+		}
+		if(qName.equalsIgnoreCase("starttime")){
+			try {  
+				//Log.d("TIMESTART", tempString);
+			    Date time = format.parse(tempString);  
+			    tempEvent.addStartTime(time);
+			} catch (java.text.ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			finally{}
+		}
+		
+		if(qName.equalsIgnoreCase("endtime")){
+			try {  
+				//Log.d("TIMEEND", tempString);
+			    Date time = format.parse(tempString);  
+				tempEvent.addEndTime(time);
+			} catch (java.text.ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			finally{}
 		}
 		
 		if(qName.equalsIgnoreCase("children")){

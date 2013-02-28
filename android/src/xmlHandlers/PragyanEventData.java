@@ -15,11 +15,16 @@ public class PragyanEventData {
 	private ArrayList<PragyanEventData> eventChildren ;
 	private String eventImage;
 	private String eventSecondaryImage;
+	private ArrayList<Date> startTimes;
+	private ArrayList<Date> endTimes;
+	
 	
 	public PragyanEventData() {
 		eventChildren = new ArrayList<PragyanEventData>();
 		pageTitles = new ArrayList<String>();
 		pageContents = new ArrayList<String>();
+		startTimes =new ArrayList<Date>();
+		endTimes = new ArrayList<Date>();
 	}	
 	public PragyanEventData(String name, Date datetime, String imgurl) {
 		eventChildren = new ArrayList<PragyanEventData>();
@@ -111,6 +116,18 @@ public class PragyanEventData {
 	}
 	public void setEventSecondaryImage(String eventSecondaryImage) {
 		this.eventSecondaryImage = eventSecondaryImage;
+	}
+	public ArrayList<Date> getStartTimes() {
+		return startTimes;
+	}
+	public void addStartTime(Date startTime) {
+		this.startTimes.add(startTime);
+	}
+	public ArrayList<Date> getEndTimes() {
+		return endTimes;
+	}
+	public void addEndTime(Date endTime) {
+		this.endTimes.add(endTime);
 	}
 	
 }

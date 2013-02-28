@@ -1,5 +1,7 @@
 package com.pragyancsg.pragyanapp13;
 
+import java.sql.Time;
+
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -113,7 +115,8 @@ public class PragyanMainActivity extends FragmentActivity implements
 		@Override
 		protected Void doInBackground(Void... params) {
 			// TODO Auto-generated method stub
-			HelperUtils.getDataProvider().updateFromRemoteXml("http://delta.nitt.edu/~robo/pragyanv4.xml",this);  //DEBUG:  "http://192.168.1.150/pragyanv4.xml", this);
+			HelperUtils.getDataProvider().updateFromRemoteXml("http://192.168.1.150/pragyanv4.xml",this);  //DEBUG:  "http://192.168.1.150/pragyanv4.xml", this);
+			//PROD:      "http://delta.nitt.edu/~robo/pragyanv4.xml",this);
 			return null;
 		}
 		public void notifyFailure(String string) {
@@ -306,14 +309,27 @@ public class PragyanMainActivity extends FragmentActivity implements
 		public Fragment getItem(int position) {
 			// Get the FRAGMENT.
 			Log.d("POSITION", String.valueOf(position));
-			Fragment fragment = new StaggeredFragment(dataProvider
-					.getItemUnderWithIndex(rootName, position).getEventName(),
-					dataProvider);
-			// Bundle args = new Bundle();
-			// args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position +
-			// 1);
-			// fragment.setArguments(args);
-			return fragment;
+			
+			
+			Log.d("FRAGMENT",dataProvider
+					.getItemUnderWithIndex(rootName, position).getEventName());
+			if(dataProvider.getItemUnderWithIndex(rootName, position).getEventName().equalsIgnoreCase("whats now")) 
+			{
+				Log.d("FRAGMENT","WHATS NOW");
+				Fragment fragment = new StaggeredNowFragment(dataProvider);
+				return fragment;
+			}
+			else{
+				Fragment fragment = new StaggeredFragment(dataProvider
+						.getItemUnderWithIndex(rootName, position).getEventName(),
+						dataProvider);
+				
+				// Bundle args = new Bundle();
+				// args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position +
+				// 1);
+				// fragment.setArguments(args);
+				return fragment;
+			}
 		}
 
 		@Override

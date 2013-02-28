@@ -358,6 +358,42 @@ public class PragyanDataParser {
 	}
 
 
+	public ArrayList<PragyanEventData> getNowEvents() {
+		// TODO Auto-generated method stub
+		ArrayList<PragyanEventData> nowEvents = new ArrayList<PragyanEventData>();
+		
+		Stack<PragyanEventData> stack = new Stack<PragyanEventData>();
+		
+		for(int i=0;i<eventTree.size();i++)
+			stack.push(eventTree.get(i));
+		
+		while(!stack.empty()){
+			PragyanEventData node = stack.pop();
+			if(eventHappeningNow(node)){
+				nowEvents.add(node);
+			}
+			for(int i=0;i<node.getEventChildren().size();i++)
+				stack.push(node.getEventChildren().get(i));
+		}
+		return nowEvents;
+	}
+
+
+	private boolean eventHappeningNow(PragyanEventData node) {
+		// TODO Auto-generated method stub
+		Date now = new Date();
+		ArrayList<Date> starts = node.getStartTimes();
+		ArrayList<Date> ends = node.getEndTimes();
+		
+		for(int i=0; i<starts.size();i++){
+			//Log.d("FRAGMENTS",starts.get)
+			if ( now.after(starts.get(i)) && now.before(ends.get(i)) )
+				return true;
+		}
+		return false;
+	}
+
+
 		
 	
 	
