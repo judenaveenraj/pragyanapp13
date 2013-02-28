@@ -319,6 +319,12 @@ public class PragyanMainActivity extends FragmentActivity implements
 				Fragment fragment = new StaggeredNowFragment(dataProvider);
 				return fragment;
 			}
+			else if(dataProvider.getItemUnderWithIndex(rootName, position).getEventName().equalsIgnoreCase("whats next")) 
+			{
+				Log.d("FRAGMENT","WHATS NOW");
+				Fragment fragment = new StaggeredNextFragment(dataProvider);
+				return fragment;
+			}
 			else{
 				Fragment fragment = new StaggeredFragment(dataProvider
 						.getItemUnderWithIndex(rootName, position).getEventName(),

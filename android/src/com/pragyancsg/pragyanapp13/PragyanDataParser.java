@@ -17,6 +17,9 @@ import java.net.MalformedURLException;
 import java.net.SocketTimeoutException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.Random;
 import java.util.Scanner;
@@ -378,6 +381,46 @@ public class PragyanDataParser {
 		return nowEvents;
 	}
 
+	
+	public ArrayList<PragyanEventData> getNextEvents() {
+		ArrayList<PragyanEventData> nextEvents = new ArrayList<PragyanEventData>();
+		
+		Stack<PragyanEventData> stack = new Stack<PragyanEventData>();
+		
+		for(int i=0;i<eventTree.size();i++)
+			stack.push(eventTree.get(i));
+		
+		while(!stack.empty()){
+			PragyanEventData node = stack.pop();
+			if(eventHappeningNext(node)){
+				nextEvents.add(node);
+			}
+			for(int i=0;i<node.getEventChildren().size();i++)
+				stack.push(node.getEventChildren().get(i));
+		}
+		
+		Collections.sort(nextEvents, new eventTimeComparable());
+		
+		int len = nextEvents.size();
+		return (len>8)? (new ArrayList<PragyanEventData>(nextEvents.subList(0, 7))) : nextEvents ;
+	}
+
+	
+	public class eventTimeComparable implements Comparator<PragyanEventData>{
+
+		@Override
+		public int compare(PragyanEventData lhs, PragyanEventData rhs) {
+
+			if(lhs.getStartTimes().get(0).before(rhs.getStartTimes().get(0)))
+				return -1;
+			else if(lhs.getStartTimes().get(0).equals(rhs.getStartTimes().get(0)))
+				return 0;
+			else
+				return 1;
+		}
+
+		
+	}
 
 	private boolean eventHappeningNow(PragyanEventData node) {
 		// TODO Auto-generated method stub
@@ -393,8 +436,19 @@ public class PragyanDataParser {
 		return false;
 	}
 
-
+	private boolean eventHappeningNext(PragyanEventData node) {
+		Date now = new Date();
+		ArrayList<Date> starts = node.getStartTimes();
+		ArrayList<Date> ends = node.getEndTimes();
 		
-	
+		for(int i=0; i<starts.size();i++){
+			//Log.d("FRAGMENTS",starts.get)
+			if ( now.before(starts.get(i)) )
+				return true;
+		}
+		return false;
+	}
+
 	
 }
+
