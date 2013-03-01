@@ -116,7 +116,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 		protected Void doInBackground(Void... params) {
 			// TODO Auto-generated method stub
 			HelperUtils.getDataProvider().updateFromRemoteXml(
-					"http://192.168.1.150/pragyanv5.xml", this); // DEBUG:
+					"http://delta.nitt.edu/~robo/pragyanv5.xml", this); // DEBUG:
 																	// "http://192.168.1.150/pragyanv4.xml",
 																	// this);
 			// PROD: "http://delta.nitt.edu/~robo/pragyanv4.xml",this);
