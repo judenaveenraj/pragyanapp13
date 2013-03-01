@@ -39,6 +39,8 @@ public class PragyanXmlParser extends DefaultHandler {
 	private boolean startPage = false;
 	private boolean startContent = false;
 	private SimpleDateFormat format;
+	private boolean writingDate= false;
+	private CharArrayWriter dateWriter;
 	
 	
 	
@@ -60,6 +62,7 @@ public class PragyanXmlParser extends DefaultHandler {
 	public PragyanXmlParser(InputStream file) {
 		fileToParse = file;
 		charWriter = new CharArrayWriter();
+		dateWriter = new CharArrayWriter();
 		format = new SimpleDateFormat("dd-MM-yyyy HH:mm");  
 		
 	}	
@@ -132,6 +135,13 @@ public class PragyanXmlParser extends DefaultHandler {
 		if(qName.equalsIgnoreCase("page")){
 			startPage = true;
 		}
+		if(qName.equalsIgnoreCase("starttime")){
+			writingDate = true;
+		}
+		if(qName.equalsIgnoreCase("endtime")){
+			writingDate = true;
+		}
+		
 		if(qName.equalsIgnoreCase("content")){
 			//Log.d("ACTION","hit content"+String.valueOf(startPage));
 			startContent = true;
@@ -167,10 +177,16 @@ public class PragyanXmlParser extends DefaultHandler {
 		if(qName.equalsIgnoreCase("starttime")){
 			try {  
 				//Log.d("TIMESTART", tempString);
-			    Date time = format.parse(tempString);  
+			    Date time = format.parse(dateWriter.toString());  
+			    
 			    tempEvent.addStartTime(time);
+				
+				writingDate = false;
+				dateWriter.reset();
 			} catch (java.text.ParseException e) {
 				// TODO Auto-generated catch block
+				tempString="";
+
 				e.printStackTrace();
 			}
 			finally{}
@@ -179,10 +195,18 @@ public class PragyanXmlParser extends DefaultHandler {
 		if(qName.equalsIgnoreCase("endtime")){
 			try {  
 				//Log.d("TIMEEND", tempString);
-			    Date time = format.parse(tempString);  
+			    Date time = format.parse(dateWriter.toString());  
 				tempEvent.addEndTime(time);
+				tempString="";
+				writingDate = false;
+				dateWriter.reset();
+
 			} catch (java.text.ParseException e) {
 				// TODO Auto-generated catch block
+				//Log.d("ERROR", tempEvent.getEventName());
+				//Log.d("ERROR", tempString);
+				tempString="";
+
 				e.printStackTrace();
 			}
 			finally{}
@@ -235,6 +259,8 @@ public class PragyanXmlParser extends DefaultHandler {
 			throws SAXException {
 		if(startContent)
 			charWriter.write(ch, start, length);
+		else if (writingDate)
+			dateWriter.write(ch, start, length);
 		else
 			tempString = new String(ch, start, length);
 	}

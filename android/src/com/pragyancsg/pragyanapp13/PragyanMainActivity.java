@@ -115,7 +115,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 		@Override
 		protected Void doInBackground(Void... params) {
 			// TODO Auto-generated method stub
-			HelperUtils.getDataProvider().updateFromRemoteXml("http://192.168.1.150/pragyanv4.xml",this);  //DEBUG:  "http://192.168.1.150/pragyanv4.xml", this);
+			HelperUtils.getDataProvider().updateFromRemoteXml("http://192.168.1.150/pragyanv5.xml",this);  //DEBUG:  "http://192.168.1.150/pragyanv4.xml", this);
 			//PROD:      "http://delta.nitt.edu/~robo/pragyanv4.xml",this);
 			return null;
 		}
@@ -313,16 +313,22 @@ public class PragyanMainActivity extends FragmentActivity implements
 			
 			Log.d("FRAGMENT",dataProvider
 					.getItemUnderWithIndex(rootName, position).getEventName());
-			if(dataProvider.getItemUnderWithIndex(rootName, position).getEventName().equalsIgnoreCase("whats now")) 
+			if(dataProvider.getItemUnderWithIndex(rootName, position).getEventName().equalsIgnoreCase("what's now")) 
 			{
 				Log.d("FRAGMENT","WHATS NOW");
 				Fragment fragment = new StaggeredNowFragment(dataProvider);
 				return fragment;
 			}
-			else if(dataProvider.getItemUnderWithIndex(rootName, position).getEventName().equalsIgnoreCase("whats next")) 
+			else if(dataProvider.getItemUnderWithIndex(rootName, position).getEventName().equalsIgnoreCase("what's next")) 
 			{
-				Log.d("FRAGMENT","WHATS NOW");
+				Log.d("FRAGMENT","WHATS NEXT");
 				Fragment fragment = new StaggeredNextFragment(dataProvider);
+				return fragment;
+			}
+			else if(dataProvider.getItemUnderWithIndex(rootName, position).getEventName().equalsIgnoreCase("resources")) 
+			{
+				Log.d("FRAGMENT","RESOURCES");
+				Fragment fragment = new StaggeredDownloadFragment(dataProvider);
 				return fragment;
 			}
 			else{
