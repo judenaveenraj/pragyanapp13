@@ -115,8 +115,11 @@ public class PragyanMainActivity extends FragmentActivity implements
 		@Override
 		protected Void doInBackground(Void... params) {
 			// TODO Auto-generated method stub
-			HelperUtils.getDataProvider().updateFromRemoteXml("http://192.168.1.150/pragyanv5.xml",this);  //DEBUG:  "http://192.168.1.150/pragyanv4.xml", this);
-			//PROD:      "http://delta.nitt.edu/~robo/pragyanv4.xml",this);
+			HelperUtils.getDataProvider().updateFromRemoteXml(
+					"http://192.168.1.150/pragyanv5.xml", this); // DEBUG:
+																	// "http://192.168.1.150/pragyanv4.xml",
+																	// this);
+			// PROD: "http://delta.nitt.edu/~robo/pragyanv4.xml",this);
 			return null;
 		}
 		public void notifyFailure(String string) {
@@ -128,7 +131,7 @@ public class PragyanMainActivity extends FragmentActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.pragyan_main);
+		setContentView(R.layout.pragyan_main );
 
 		HelperUtils.cacheBgs(this);
 		dataProvider = new PragyanDataParser(getApplicationContext());
